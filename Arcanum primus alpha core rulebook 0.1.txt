@@ -1,0 +1,3664 @@
+﻿These mechanics form the foundation of the Arcanum Primus combat and progression system. Every player, skill, and battle follows these rules unless otherwise modified by class, archetype, or special ability.
+________________
+
+
+🌀 Action Economy
+Each player character has access to the following during their turn:
+* 1 Action – Used to perform a skill or a Variable Basic Attack (VBA)
+* 1 Bonus Action – Used for minor skills, utility effects, or movement tech
+* 1 Reaction – Used on enemy turns to Parry, Dodge, or Jump
+💡 Reactions are limited to one per round. You must choose wisely!
+________________
+
+
+🔋 Ability Points (AP) System
+* Players start with 3 AP at Level 1
+* Max AP is 10 (expanded via passives and level-ups)
+* Skills cost between 2–5 AP depending on their power
+* AP is not automatically replenished each turn — it must be earned through gameplay
+🟩 AP Gain Methods:
+* +1 AP when landing a successful VBA (basic attack)
+* +1 AP on a Perfect Parry
+* +1 AP from Support skills or passives
+* Some passives may restore AP over time or after certain triggers
+🧠 AP is a finite energy system. Managing your AP pool is key to long-term survival and burst timing.
+________________
+
+
+💥 Skill Structure
+Skills are the heart of combat, each costing a set amount of AP and scaling by tier:
+AP Cost
+	Damage Roll
+	2 AP
+	1d6
+	3 AP
+	1d8
+	4 AP
+	2d6
+	5 AP
+	2d8
+	* Higher-tier skills (Tier 4–7) cost 6–10 AP and have unique effects
+* Most skills are locked by level and role
+* Each skill belongs to a Role (DPS, Tank, Support) and sometimes an Archetype
+________________
+
+
+🛡️ Reaction System
+During the enemy’s turn, players may use 1 Reaction per round. The 3 options are:
+Parry – Block a hit with your weapon or power
+* Roll d20 + WIS (or bonus based on WIS tier)
+* Success = Take reduced damage
+* Perfect Parry (18–19) = No damage + gain 1 AP
+* Crit Parry (Nat 20) = No damage + 1 AP + Counterattack (with VBA or 2 AP skill)
+Dodge – Swiftly evade an incoming hit
+* Roll d20 + DEX
+* Success = Graze (reduced damage)
+* High roll (17+) = Avoid all damage
+* Fails = Full damage taken
+Jump – Leap out of hazard range
+* Only usable when the GM signals a jump opportunity (e.g., AoE zone)
+* Roll d20 + WIS or DEX (player choice)
+________________
+
+
+Gradient Gauge System (Arcanum Primus – Core Mechanics)
+The Gradient Gauge is a shared cinematic energy meter used to unleash powerful team-based or solo ultimate techniques. It represents the flow of momentum, coordination, and dramatic energy in battle.
+________________
+
+
+🔋 How GP is Gained
+* For every 5 skills used by the party (not VBAs), gain +1 Gradient Point (GP)
+* GP is teamwide, not individual
+* GP resets at the end of combat
+________________
+
+
+🎯 GP Cost Scales by Party Size
+The more players in the party, the more GP is needed to activate powerful effects — this ensures balance and pacing.
+Party Size
+	Minor Technique
+	Major Technique
+	2 Players
+	2 GP
+	4 GP
+	3 Players
+	3 GP
+	5 GP
+	4 Players
+	3 GP
+	6 GP
+	5+ Players
+	4 GP
+	7 GP
+	* Minor Technique: A solo power-up, quick strike, buff, or cinematic evasion
+* Major Technique: A full-party combo attack, burst heal, zone control, or fusion move
+________________
+
+
+🧠 Team Use Rules
+* Only 1 player may spend GP per round
+* Players must discuss and decide who gets to use the gauge
+* GP is spent immediately once declared
+________________
+
+
+🌀 Echo Pulse Delay (Optional Upgrade – Level 30+)
+Players may delay their right to use GP and reserve a “pulse” for future turns.
+Rules:
+* On their turn, a player may declare:
+
+
+“I delay my Echo Pulse.”
+
+
+* That player skips GP usage now but may use it in a future round, even if another player already used GP that round
+
+* Only 1 reserve per player
+
+* Cannot stack or delay endlessly
+
+This allows two GP users in one turn (reserved + normal), breaking the usual limit.
+________________
+
+
+⚠️ Notes:
+   * 1 Gradient Skill per round max, unless using Echo Pulse Delay
+   * GP cannot be split or spent partially
+   * Legendary passives or future Sigils may modify these rules
+________________
+
+
+🧱 Variable Basic Attack (VBA)
+When a player doesn’t use a skill, they can always fallback to a free basic attack (0 AP):
+Level Range
+	Damage
+	1–9
+	1d4
+	10–29
+	1d6
+	30–59
+	1d8
+	60–89
+	2d6
+	90–100
+	2d8
+	   * Add STR, DEX, or INT modifier (based on attack type)
+   * Used for chip damage or to earn AP
+________________
+
+
+⚖️ d20 Resolution System
+Almost all actions in Arcanum Primus rely on a d20 roll, modified by the relevant stat:
+Roll Result
+	Outcome
+	1–6
+	Miss or Fail
+	7–12
+	Graze or Partial
+	13–19
+	Hit / Full Success
+	20+
+	Critical Hit (x1.5 dmg or special effect)
+	🎲 Stat Modifiers apply based on context:
+   * STR: Melee attacks, knockback
+   * DEX: Ranged attacks, Dodge rolls
+   * CON: Status resistance
+   * INT: Tech/magic accuracy, combo chains
+   * WIS: Parry & Jump rolls
+   * CHA: Buff/heal power, team synergy
+________________
+
+
+🔄 Turn Flow Summary
+Player Turn:
+   * Choose to use: 1 Skill (AP cost) or VBA (free)
+   * Use Bonus Action (if available)
+   * Store unused AP (if any)
+Enemy Turn:
+   * React once (Dodge, Parry, or Jump)
+   * Track damage, effects, and AP gain
+
+
+Reaction System – Parry, Dodge, Jump
+Arcanum Primus Core Defense Mechanics
+Every character gets 1 Reaction per round, which they can use during the enemy’s turn to mitigate or avoid damage. Reactions are critical to survival, defense strategy, and team synergy.
+________________
+
+
+🎯 Overview
+Reaction
+	Use Case
+	Roll Modifier
+	Outcome
+	Parry
+	Melee or ranged physical/magic hits
+	WIS (or bonus)
+	Block/reduce/negate damage, gain AP
+	Dodge
+	Avoid full-body attacks
+	DEX
+	Reduce or avoid damage
+	Jump
+	Escape AoE or hazards
+	WIS or DEX (player choice)
+	Evade entirely if successful
+	⚠️ You may only use one Reaction per round, so choosing wisely is essential.
+________________
+
+
+⚔️ Parry
+Block incoming attacks using weapons, powers, shields, or raw skill.
+📘 Mechanics:
+   * Roll: d20 + Parry Modifier
+   * Default modifier = WIS, but...
+   * If WIS is your lowest stat, you get a flat +1
+   * If WIS is average (10–11), still +1
+   * If WIS is above average, use your actual modifier
+   * Max Parry Bonus = +4
+🎲 Outcomes:
+Roll Result
+	Outcome
+	1–12
+	Fail – full damage taken
+	13–17
+	Normal Parry – take 50–80% damage (scales by level/perks)
+	18–19
+	Perfect Parry – take 0 damage, gain +1 AP
+	20 (Nat)
+	Crit Parry – 0 damage, +1 AP, Counterattack (use VBA or 2 AP skill)
+	⚔️ Team Counter Bonus:
+If all active players roll Perfect Parry in the same round, trigger a bonus Team Counterattack (regardless of level).
+________________
+
+
+💨 Dodge
+Quickly evade incoming strikes or ranged energy.
+📘 Mechanics:
+   * Roll: d20 + DEX
+🎲 Outcomes:
+Roll Result
+	Outcome
+	1–12
+	Fail – full damage taken
+	13–16
+	Graze – take half damage
+	17+
+	Full Dodge – take 0 damage
+	❌ Dodging grants no AP on success.
+________________
+
+
+Jump (Updated with Team Counter Mechanic)
+Jump is a reactive movement-based defense, triggered only by environmental threats like AoE blasts, collapsing terrain, magical implosions, or timed hazards.
+________________
+
+
+📘 Mechanics:
+   * You may only use Jump when the GM signals a hazard
+   * Example: "The reactor implodes — Jump now!"
+   * Roll: d20 + WIS or DEX (your choice)
+   * Can be used even if your WIS is low or DEX is average
+________________
+
+
+🎲 Outcomes:
+Roll Result
+	Outcome
+	1–12
+	Fail – full effect (e.g. full AoE damage, stun)
+	13–16
+	Partial – graze (reduced effect or minor status)
+	17+
+	Success – complete evasion, no effect
+	________________
+
+
+🧬 NEW: Team Counter Jump Attack
+If all active players successfully Jump (roll 17+ in the same round), the team may immediately trigger a Counter Jump Attack.
+📌 How It Works:
+   * Everyone who succeeded may make a free attack using the VBA damage system
+   * Use the same VBA dice you’d use for normal combat
+   * You do not spend AP, but you do not gain AP from the hit either
+   * Can target:
+   * The source of the hazard (e.g. boss casting the AoE)
+   * Or nearby enemies, based on GM discretion
+🎬 This simulates the party leaping together in perfect sync, rebounding with a cinematic strike while dodging death.
+________________
+
+
+Example:
+The enemy launches a massive explosion.
+GM signals “Jump now!”
+   * Player 1 (DEX build): Rolls 19 ✅
+   * Player 2 (Support): Rolls 18 ✅
+   * Player 3 (Tank): Rolls 20 ✅
+✅ All succeed → trigger Counter Jump Attack!
+Each of them now rolls their VBA damage as a free counter-strike.
+________________
+
+
+✅ Final Notes:
+   * This feature mirrors Team Perfect Parry Counter rules
+   * Counter Jump Attacks happen immediately after the hazard but before the next round begins
+   * Only available once per encounter unless otherwise stated
+________________
+
+
+💡 Design Goals:
+   * Give every player a defensive option, even with low stats
+   * Encourage stat diversity (DEX for Dodge, WIS for Parry/Jump)
+   * Create tension and tactical decision-making (you only get one reaction per round!)
+   * Reward good timing and risk-taking with Perfect Parry bonuses and crit counters
+
+
+
+
+Perfect vs Crit Parry Clarification
+Understanding Defensive Roll Tiers in Arcanum Primus
+In Arcanum Primus, Parry is a reaction-based defense roll using d20 + WIS (or a scaling bonus if WIS is low). The quality of your roll determines the level of protection — and whether you unlock bonus effects like AP gain or Counterattacks.
+________________
+
+
+🎯 Parry Outcome Table
+Final Roll Result
+	Result
+	Effect
+	1–12
+	❌ Failed Parry
+	Take full damage
+	13–17
+	✅ Normal Parry
+	Take 50–80% damage, no AP gain (scales with level or passives)
+	18–19
+	🌟 Perfect Parry
+	Take 0 damage, gain +1 AP
+	20 (natural)
+	💥 Critical Parry
+	Take 0 damage, gain +1 AP, and trigger a Counterattack
+	________________
+
+
+🔍 Breakdown of Each Tier
+✅ Normal Parry (13–17)
+   * Reduces incoming damage, but does not negate it.
+   * Offers no AP gain.
+   * Effectiveness may improve with perks, passives, or level scaling (e.g., 80% block instead of 50%).
+________________
+
+
+🌟 Perfect Parry (18–19, natural roll only)
+   * Fully negates the attack’s damage
+   * Grants +1 AP
+   * Can help trigger a Team Counterattack if multiple players roll Perfect Parry in the same round
+   * Modified 18–19s do count for
+________________
+
+
+💥 Crit Parry (20 only)
+   * Also fully negates damage
+   * Grants +1 AP
+   * Additionally triggers a free Counterattack:
+   * Can use VBA or a 2 AP skill if you have AP
+   * Applies immediately during the enemy turn
+Crit Parry is the only way to counterattack solo at Level 1 (before the general Parry Counter unlocks at Level 10+)
+________________
+
+
+🧠 Key Balancing Notes
+   * WIS bonus helps you succeed, but only raw 18–20 rolls trigger Perfect or Crit effects.
+   * Players with low WIS still get a flat +1 bonus, so everyone has a chance.
+   * Crit Parry is always rarer, and rewarded with a bigger payoff.
+________________
+
+
+🌀 Interaction with Team Mechanics
+   * Perfect Parry (natural 18–19) contributes to Team Counterattack
+   * Crit Parry (natural 20) also counts toward Team Counterattack
+   * Only one counterattack per round unless special abilities override that rule
+
+
+
+
+d20 Outcome Table
+Universal Roll Resolution for Arcanum Primus
+In Arcanum Primus, all important actions are resolved using a d20 roll — modified by a relevant stat. This includes attacks, skills, reactions, and combo triggers.
+________________
+
+
+🎯 Roll Outcome Breakdown
+Roll (before mods)
+	Outcome
+	Description
+	1–6
+	❌ Miss / Fail
+	The action fails. No damage, no effect, or a total whiff.
+	7–12
+	⚠️ Graze / Partial
+	A partial hit. Deal reduced damage or weakened effect (GM-defined).
+	13–19
+	✅ Success / Hit
+	Full hit. Apply skill or effect normally, including AP or condition triggers.
+	20+
+	💥 Critical
+	Trigger a Critical Hit or Critical Effect (based on ability). Damage is increased or special rules apply.
+	________________
+
+
+🧠 Stat Modifiers & Roll Context
+When making a d20 roll, you almost always add a relevant stat modifier based on the action:
+Terrain & Hazard Interaction Rules
+Action Type
+	Modifier
+	Melee Skill
+	STR
+	Ranged Skill
+	DEX
+	Magic/Tech Skill
+	INT
+	Dodge Reaction
+	DEX
+	Parry/Jump Reaction
+	WIS
+	Buff/Heal Power
+	CHA
+	Knockback Saves
+	CON
+	These modifiers shift the final result, allowing players with strong stats to graze less and crit more.
+________________
+
+
+⚔️ Critical Hit Rules (20+)
+By default:
+   * +50% total damage
+🎯 Some abilities and passives have unique crit effects (e.g. “On crit: bleed 2 turns”)
+You may also expand your crit range with Perfection stacks, Support skills, or magic boosts:
+   * Example: Crit Range = 19–20 (instead of just 20)
+________________
+
+
+⚠️ Graze Rules (7–12)
+If a roll lands in the graze range:
+   * Damage or effect is cut in half, rounded down
+   * Some status effects are reduced in duration or fail entirely
+   * Reactions that graze (like Dodge or Jump) still partially protect
+🛡️ Graze results are still meaningful — they represent tension, near-hits, or partial dodges.
+________________
+
+
+✅ Usage Scenarios
+The d20 Outcome Table applies to:
+Situation
+	Outcome Type
+	Attack rolls
+	Miss / Graze / Hit / Crit
+	Skill accuracy checks
+	Same table
+	Combo triggers
+	Success if ≥13
+	Reaction rolls
+	Custom results by type (Dodge/Parry table)
+	________________
+
+
+Critical Hit Scaling by Level
+Crit damage is +50% by default, with slight power growth as players ascend tiers:
+Level Range
+	Crit Bonus
+	Lv 1–29
+	+50% total damage
+	Lv 30–59
+	+60% total damage
+	Lv 60–89
+	+70% total damage
+	Lv 90–100
+	+80% total damage
+	💡 This keeps crits exciting but controlled, with slight growth every 30 levels to reflect mastery and late-game scaling without overwhelming the core balance.
+🔧 Optional Variants (For Future Development)
+   * Crit Momentum: Gain +1 Gradient Point on crit
+   * Crit Chain: Two crits in 1 round = Bonus Action refund
+   * Crit Breaker: Crits bypass defense buffs or barriers
+
+
+Status Effects System – Arcanum Primus
+“A single affliction can break even the strongest will.”
+________________
+
+
+⚠️ Core Status Rules
+   * Duration: Most effects last 1–3 rounds, unless cleansed or resisted.
+   * Saving Throws: Each effect lists a Save Type (CON, WIS, etc.) and is set by the skill's DC.
+   * Stacking: Effects do not stack unless specified (e.g., Bleed 2 = 2d4).
+   * Trigger Timing: Effects activate immediately or at start/end of turn (see effect).
+   * Cleansing: Removed by support skills, terrain, or specific gear/perks.
+________________
+
+
+☣️ Primary Debuffs
+Effect
+	Description
+	Save
+	Notes
+	Burn 🔥
+	1d4/round, prevents AP regen next turn
+	CON
+	Extinguish on save or with terrain effects
+	Bleed 🩸
+	1d4/round, lasts until healed
+	CON
+	Can stack (e.g., Bleed 2 = 2d4)
+	Poison ☠️
+	-1 to all rolls, 1d4 if acting/moving
+	CON
+	Lasts 2+ rounds; stacks with traits
+	Corrosion 🧪
+	-1 DEF, -1 AP gain next turn
+	CON
+	Rare; acid/chemical-based terrain
+	Stun 🌀
+	Lose next Action or Bonus Action
+	STR/CON
+	Can’t be stunned twice in a row
+	Slow 🐢
+	Half movement, -1 Initiative
+	DEX
+	Ends after 2 rounds or with cleanse
+	Fear 😱
+	Can't move toward source, -1 to hit
+	WIS
+	Ends if source breaks LoS
+	Confusion 🧠
+	Random behavior on 1d4 (GM controls)
+	WIS
+	Used by bosses, illusion magic
+	Weakened ⚫
+	-2 damage from all skills
+	STR/INT
+	Ends after 1–2 rounds
+	Silence 🧠
+	Can’t use INT-based magic skills
+	WIS
+	Doesn’t block healing or passives
+	________________
+
+
+🌟 Bonus & Tactical Effects
+Effect
+	Description
+	Save
+	Notes
+	Charm 💘
+	Can't target source, CHA bonuses
+	WIS
+	Ends if source attacks or damaged
+	Rooted 🌱
+	Can't move, but can act normally
+	STR
+	Can Leap or Cleanse to break
+	Blinded 👁
+	-2 to hit, melee only
+	WIS
+	Ends after 1 round or successful save
+	Marked 🎯
+	+2 to hit from attackers
+	—
+	Applied by DPS skills or scouting effects
+	Exposed 🪓
+	Next hit deals +2 damage
+	—
+	Ends after triggered
+	Doomed 🕱
+	Takes double damage from next skill
+	INT
+	Rare, elite-only status
+	________________
+
+
+🛡️ Status Resistance & Recovery
+   * Natural Saves: Most statuses give a new save every turn.
+   * Cleanse Mechanics:
+   * Support skills may remove 1–2 effects per target.
+   * Standing in terrain (e.g., Water) may remove Burn or Poison.
+   * Immunity Buffs:
+   * Some gear/perks grant 1-turn immunity or negate specific effects.
+________________
+
+
+💥 Stacking Rules
+Effect
+	Stackable?
+	Max Stacks
+	Notes
+	Burn
+	No
+	—
+	Only highest applies
+	Bleed
+	Yes
+	3–4
+	Adds 1d4 per stack
+	Poison
+	Yes*
+	2
+	Some archetypes allow it
+	Exposed
+	No
+	—
+	Ends after next hit
+	Weakened
+	No
+	—
+	Refreshes duration only
+	No built-in resistances Future expansion via gear, perks, archetypes.
+Tank Examples:
+   * +2 to saves vs Fear, Bleed, Stun (Lv 20+)
+   * May absorb effects from nearby allies
+Support Examples:
+   * Vital Threads used to cleanse status effects
+   * AoE Cleanse at higher levels (Lv 18+)
+DPS Examples:
+   * Afflicted = gain Perfection stack
+   * Use skill to purge status and gain AP
+
+
+Arcanum Primus – Equipment & Items System (Revised Alpha)
+“Gear alone won’t make you a legend… but the right blade might save your life.”
+________________
+
+
+🧳 Item Types
+Type
+	Description
+	Weapons
+	Deal damage, boost attacks, or enable special AP-based effects
+	Armor
+	Reduces damage, boosts reaction rolls, or resists statuses
+	Accessories
+	Unique passives (e.g., +1 Vital Thread max, reflect status, terrain resist)
+	Artifacts
+	Rare, story-bound items with cinematic or legendary powers
+	Consumables
+	One-time use (potions, bombs, scrolls, injectors, shards)
+	________________
+
+
+📊 Item Rarity Tiers
+Tier
+	Name
+	Example Bonus
+	1
+	Common
+	+1 to d20 rolls vs status effects
+	2
+	Uncommon
+	+1 damage to an element, +1 AC
+	3
+	Rare
+	+1 AP on Perfect Parry (1/encounter)
+	4
+	Epic
+	Reflect first debuff, store 1 extra AP
+	5
+	Legendary
+	Unique skill or resurrect at 1 HP (1/day)
+	6
+	Mythic
+	GM-crafted effects tied to major lore
+	________________
+
+
+⚔️ Weapons Overview
+Weapon Type
+	Example
+	Default Trait
+	Melee
+	Sword, Hammer, Claws
+	+1 to Combo or Parry
+	Ranged
+	Bow, Gun, Chakrams
+	+1 to Accuracy or Dodge
+	Arcane
+	Staff, Tome, Wand
+	+1 GP after 5th skill if INT ≥ +2
+	Weapon Traits (Revised)
+   * Overload: +1 damage on 4+ AP skills
+   * Lightweight: +1 Bonus Action per combat
+   * Keen: Expand crit range by 1
+   * Tuned Core: +1 AP on status-affected enemies
+   * Runic Bond: Triggers passive linked to Sigil/Artifact
+   * Dual-Mode: Switch damage type (e.g. ice/fire, blunt/slash)
+________________
+
+
+🛡️ Armor Overview
+Role
+	Example Armor Perk
+	DPS
+	+1 Crit Damage or +2 vs Graze hits
+	Support
+	+1 max Vital Thread or +1 to heals on low HP allies
+	Tank
+	+1 VCP on reaction success or +1 to Jump rolls
+	________________
+
+
+🔮 Accessories
+Examples:
+   * Aether Pendant: Store 1 AP (1/combat)
+   * Threadweaver Ring: +1 heal on nat 20
+   * Chrono Anklet: Dodge refunds Bonus Action (1/encounter)
+   * Null Pearl: Block first status effect per battle
+________________
+
+
+🧬 Artifacts (Replaces “Relics”)
+Examples:
+   * Ash Sigil Fragment – KO an enemy and fall to heal the team
+   * Timeglass Blade – Reverse an ally’s turn (1/session)
+   * Bone Crown – Auto-activate Bonewall at 0 HP
+________________
+
+
+💣 Consumables
+Type
+	Effect
+	Heal
+	Restore 1d8 or 2d6 HP
+	Boost
+	+2 AP or +1 GP instantly
+	Status
+	Cleanse or immunity
+	Elemental Bomb
+	AoE 1d6 fire/frost/shock
+	Smoke Capsule
+	Forces enemy reroll
+	________________
+
+
+💰 Arcanum Primus – Loot System (Cleaned)
+d100 Loot Table (Echo-Free)
+Roll
+	Loot Tier
+	Examples
+	01–50
+	Common
+	Minor weapons, potions, crafting scrap
+	51–75
+	Uncommon
+	+1 gear, accessories, standard mats
+	76–90
+	Rare
+	AP boosters, enchanted items
+	91–98
+	Epic
+	Set fragments, unique traits
+	99–100
+	Legendary/Mythic
+	Arc-bound gear, once-per-day items
+	🔑 “Sealed” chests renamed as:
+   * Vault-Linked Chests – contain Rare+ loot or Key Item
+________________
+
+
+🎁 Bonus Loot Tags (Updated)
+Tag
+	Effect
+	[Cursed]
+	Requires attunement or has drawbacks
+	[Enhanced]
+	+1 to effect or trait
+	[Worn]
+	Repair needed
+	[Sigil-Bound]
+	Connected to bloodline or world tier
+	[Twinned]
+	Shares effect with another PC
+	________________
+
+
+📚 Story Rewards (Cleaned)
+   * Named Arc Weapon – boss weapon with lore bonus
+   * Memory Fragment – unlocks story or sigil-based passive
+   * Aether Seed – upgrades Gradient Skill (no “Echo Seed”)
+   * Title Relic – unlocks passive title perk
+________________
+
+
+🛠️ Arcanum Primus – Crafting System (Cleaned)
+Material Types (Updated)
+Type
+	Examples
+	Core Ore
+	Iron Shard, Astral Alloy
+	Elemental
+	Embercore, Cryogem
+	Arc Relics
+	Soulsteel Chip, Lunar Ingot
+	Biological
+	Blood Jelly, Chitin Husk
+	Mystic
+	Aether Silk, Memory Thread
+	Tech Parts
+	Nullwire, Servo Frame
+	Removed: Echo Remnants, Echo Seeds
+________________
+
+
+🔨 Sample Crafting Recipes
+🗡️ Forge: Ember Blade
+   * 2x Iron Shard
+   * 1x Embercore
+   * 30 Gold → +1 fire weapon
+🧥 Upgrade: Tempest Cloak (Rare)
+   * 2x Cryogem
+   * 1x Lunar Ingot → +1 Dodge trait
+🩸 Fuse: Twilight Talons
+   * Dual Talon + Venom Fang
+   * 1x Bio-Fusion Catalyst → 2d6, Poison on Crit, +1 AP vs bleeding
+________________
+
+
+
+
+💠 Socket System (Cleaned)
+Infusion Crystal
+	Effect
+	Flamecore Rune
+	+1 Fire damage
+	Nullsigil
+	Resist 1 status
+	Chrono Charge
+	+1 AP on Parry (1/encounter)
+	Mirror Dust
+	Reflect 1 dmg per round
+	________________
+
+
+⚒️ Crafting Stations (Renamed)
+Station
+	Use
+	Basic Forge
+	Common–Uncommon items
+	Aether Crucible
+	Rare+ gear, Gradient tools
+	Techbench
+	Weapon fusions, hybrid parts
+	Shrine of Threads
+	Support & artifact crafting
+	Darkforge Vault
+	Cursed or unstable gear
+	
+
+
+
+
+
+
+
+Level Curve
+Arcanum Primus Leveling System
+The Leveling System in Arcanum Primus is a longform cinematic journey from Level 1 to Level 100, representing the gradual awakening of a player's divine, magical, and mutant potential. Each level milestone brings skill unlocks, power curve increases, and new systems.
+________________
+
+
+🎓 Leveling Philosophy
+   * Momentum-Based Milestone System:
+
+Players earn +1 Momentum Point per session of strong performance or story advancement. Or just retuning to sessions
+
+      * Spend 3 Momentum Points to level up, or
+      * GM may fast-track levels after major story events or boss fights.
+________________
+
+
+📈 Level Tier Structure (Progression Arcs)
+Level Range
+	Tier Name
+	Description
+	1–10
+	Rapid Growth
+	Learn core systems, resource mechanics, basic reactions, and early combos. Level fast.
+	11–30
+	Power Mastery
+	Unlock class-defining passives, signature upgrades, reaction 2 slots, Fusion Skill options.
+	31–60
+	Echo Bloom
+	Echo mutations (if applicable), archetype evolutions, cross-skill synergy, 2d6/2d8 tier skills.
+	61–90
+	Mythic Ascension
+	Characters gain world-shaping abilities, timeline-bending effects, battlefield domination.
+	91–100
+	Hollow Tier
+	Final cinematic arc. Each PC becomes legendary; narrative shaping begins. Use of Tier ∞ skills.
+	________________
+
+
+📘 Skill Tier Unlock Timeline
+Level
+	Unlock
+	1
+	2 Tier 1 Skills + 1 Reaction
+	3
+	+1 Tier 1 Skill
+	5
+	+1 Tier 1 Skill
+	7
+	+1 Utility/Passive
+	9
+	+1 Tier 1 Skill
+	12
+	Tier 2 Skill 1
+	15
+	+1 Tier 2 Skill
+	18
+	+1 Tier 2 or Utility Skill
+	20
+	Reaction Upgrade Slot
+	21
+	Tier 2 Skill 3
+	23
+	+1 Passive or Utility Skill
+	26
+	+1 Tier 2 Skill
+	29
+	Reaction #2 Slot Unlocked
+	32
+	+1 Passive or Gradient Buff
+	35
+	Tier 2 Skill 5 (Final)
+	38
+	Fusion Skill or Mini-Ultimate
+	41
+	Tier 3 Skill 1
+	44
+	+1 Passive (Combo/Finisher Bonus)
+	47
+	Tier 3 Skill 2
+	50
+	Parry Counterattack Unlocked
+	53
+	Tier 3 Skill 3
+	56
+	Optional Reaction #3 Slot
+	59
+	Tactical Stance Toggle Unlocked
+	60
+	Tier 4 Skill 1
+	62
+	Passive Upgrade: AoE/Charge Tool
+	65
+	Tier 4 Skill 2
+	67
+	Gradient Trait Upgrade
+	69
+	Tier 4 Skill 3
+	70
+	Tier 5 Skill 1
+	72
+	Passive: Resurrection or Law Shift
+	75
+	Tier 5 Skill 2
+	77
+	Special: Delayed Echo Memory Use
+	79
+	Tier 5 Skill 3 (Optional)
+	80
+	Tier 6 Skill 1
+	82
+	Passive: Timeline or Death Trigger
+	85
+	Tier 6 Skill 2
+	87
+	Passive: High-Difficulty Counter
+	89
+	Tier 6 Skill 3 (Optional)
+	90
+	Tier 7: Final Signature Skill
+	92
+	Passive: Iconic Feature Boost
+	94
+	Alternate Gradient Overdrive
+	95–100
+	Tier ∞: DM-Crafted Legendary Skill
+	________________
+
+
+⚙️ Role-Based Milestones
+Each role (DPS, Support, Tank) unlocks role-specific upgrades as they level:
+      * DPS: Perfection expansions, crit chains, combo passives
+      * Support: Vital Thread auras, AP refunds, multi-target heals
+      * Tank: VCP expansions, battlefield control zones, taunt radius boosts
+________________
+
+
+🧠 Skill Tier Structure (For Clarity)
+Tier
+	Level Range
+	Skill Cost
+	Description
+	T1
+	1–10
+	2–3 AP
+	Core Skills
+	T2
+	11–40
+	4 AP
+	Advanced Combos
+	T3
+	41–59
+	5 AP
+	Tactical Finishers
+	T4
+	60–69
+	6–7 AP
+	Battlefield Shapers
+	T5
+	70–79
+	7–8 AP
+	Legendary Skills
+	T6
+	80–89
+	8–9 AP
+	Ascension Tools
+	T7
+	90–94
+	9–10 AP
+	Final Signature Moves
+	T∞
+	95–100
+	Narrative
+	GM-Crafted Fate Skills
+	Completion Status
+Component
+	Status
+	Level Tier Structure
+	✅ Complete
+	Skill Unlock Timeline
+	✅ Complete
+	Role-Based Milestones
+	✅ Complete
+	Momentum XP System
+	✅ Complete
+	Tier AP & Dice Scaling
+	✅ Complete
+	Visual Chart or Sheet
+	🔄 In Progress (optional export)
+	Level Curve
+Arcanum Primus Leveling System
+The Leveling System in Arcanum Primus is a longform cinematic journey from Level 1 to Level 100, representing the gradual awakening of a player's divine, magical, and mutant potential. Each level milestone brings skill unlocks, power curve increases, and new systems.
+________________
+
+
+🎓 Leveling Philosophy
+      * Momentum-Based Milestone System:
+
+Players earn +1 Momentum Point per session of strong performance or story advancement. Or just retuning to sessions
+
+         * Spend 3 Momentum Points to level up, or
+         * GM may fast-track levels after major story events or boss fights.
+________________
+
+
+📈 Level Tier Structure (Progression Arcs)
+Level Range
+	Tier Name
+	Description
+	1–10
+	Rapid Growth
+	Learn core systems, resource mechanics, basic reactions, and early combos. Level fast.
+	11–30
+	Power Mastery
+	Unlock class-defining passives, signature upgrades, reaction 2 slots, Fusion Skill options.
+	31–60
+	Echo Bloom
+	Echo mutations (if applicable), archetype evolutions, cross-skill synergy, 2d6/2d8 tier skills.
+	61–90
+	Mythic Ascension
+	Characters gain world-shaping abilities, timeline-bending effects, battlefield domination.
+	91–100
+	Hollow Tier
+	Final cinematic arc. Each PC becomes legendary; narrative shaping begins. Use of Tier ∞ skills.
+	________________
+
+
+📘 Skill Tier Unlock Timeline
+Level
+	Unlock
+	1
+	2 Tier 1 Skills + 1 Reaction
+	3
+	+1 Tier 1 Skill
+	5
+	+1 Tier 1 Skill
+	7
+	+1 Utility/Passive
+	9
+	+1 Tier 1 Skill
+	12
+	Tier 2 Skill 1
+	15
+	+1 Tier 2 Skill
+	18
+	+1 Tier 2 or Utility Skill
+	20
+	Reaction Upgrade Slot
+	21
+	Tier 2 Skill 3
+	23
+	+1 Passive or Utility Skill
+	26
+	+1 Tier 2 Skill
+	29
+	Reaction #2 Slot Unlocked
+	32
+	+1 Passive or Gradient Buff
+	35
+	Tier 2 Skill 5 (Final)
+	38
+	Fusion Skill or Mini-Ultimate
+	41
+	Tier 3 Skill 1
+	44
+	+1 Passive (Combo/Finisher Bonus)
+	47
+	Tier 3 Skill 2
+	50
+	Parry Counterattack Unlocked
+	53
+	Tier 3 Skill 3
+	56
+	Optional Reaction #3 Slot
+	59
+	Tactical Stance Toggle Unlocked
+	60
+	Tier 4 Skill 1
+	62
+	Passive Upgrade: AoE/Charge Tool
+	65
+	Tier 4 Skill 2
+	67
+	Gradient Trait Upgrade
+	69
+	Tier 4 Skill 3
+	70
+	Tier 5 Skill 1
+	72
+	Passive: Resurrection or Law Shift
+	75
+	Tier 5 Skill 2
+	77
+	Special: Delayed Echo Memory Use
+	79
+	Tier 5 Skill 3 (Optional)
+	80
+	Tier 6 Skill 1
+	82
+	Passive: Timeline or Death Trigger
+	85
+	Tier 6 Skill 2
+	87
+	Passive: High-Difficulty Counter
+	89
+	Tier 6 Skill 3 (Optional)
+	90
+	Tier 7: Final Signature Skill
+	92
+	Passive: Iconic Feature Boost
+	94
+	Alternate Gradient Overdrive
+	95–100
+	Tier ∞: DM-Crafted Legendary Skill
+	________________
+
+
+⚙️ Role-Based Milestones
+Each role (DPS, Support, Tank) unlocks role-specific upgrades as they level:
+         * DPS: Perfection expansions, crit chains, combo passives
+         * Support: Vital Thread auras, AP refunds, multi-target heals
+         * Tank: VCP expansions, battlefield control zones, taunt radius boosts
+________________
+
+
+🧠 Skill Tier Structure (For Clarity)
+Tier
+	Level Range
+	Skill Cost
+	Description
+	T1
+	1–10
+	2–3 AP
+	Core Skills
+	T2
+	11–40
+	4 AP
+	Advanced Combos
+	T3
+	41–59
+	5 AP
+	Tactical Finishers
+	T4
+	60–69
+	6–7 AP
+	Battlefield Shapers
+	T5
+	70–79
+	7–8 AP
+	Legendary Skills
+	T6
+	80–89
+	8–9 AP
+	Ascension Tools
+	T7
+	90–94
+	9–10 AP
+	Final Signature Moves
+	T∞
+	95–100
+	Narrative
+	GM-Crafted Fate Skills
+	
+
+Gradient Gauge Scaling by Party Size
+Team-Based Resource Balance for Cinematic Power
+________________
+
+
+💡 What Is the Gradient Gauge?
+The Gradient Gauge is a shared team resource that builds up over time as players use skills. It fuels powerful, cinematic Gradient Skills that can turn the tide of battle.
+         * The gauge is teamwide, not individual
+         * Every 5 skills used by the party = +1 GP (Gradient Point)
+         * GP is spent to activate special Gradient Skills, like Minor Finishers or Major Team Techniques
+________________
+
+
+⚖️ Why Scaling Is Needed
+Without scaling, small teams (e.g. 2–3 players) would build GP much faster than full 4–5 player teams, leading to frequent, unbalanced Gradient usage.
+To prevent this, GP costs for using Gradient Skills scale based on party size.
+________________
+
+
+📊 GP Scaling Table
+Party Size
+	GP Gain Rate
+	Minor Gradient Cost
+	Major Gradient Cost
+	2 Players
+	+1 GP per 3 skills
+	2GP
+	3 GP
+	3 Players
+	+1 GP per 4 skills
+	3 GP
+	5 GP
+	4 Players
+	+1 GP per 5 skills
+	4 GP
+	6 GP
+	5 Players
+	+1 GP per 6 skills
+	3 GP
+	7 GP
+	________________
+
+
+📘 Gradient Skill Costs (Revised)
+Gradient Skill Type
+	Effect Scope
+	GP Cost (base)
+	Minor Technique
+	Single-target or minor boost
+	3 GP
+	Major Technique
+	AoE, burst, revival, or team buff
+	6–7 GP
+	________________
+
+
+🌀 Additional Notes
+         * GM may adjust costs for special encounters (e.g., boss fights may allow discounted Gradient use)
+         * Certain Support or Passive skills may refund GP, or reduce cost once per battle
+         * You can only use one Gradient Skill per round, even if you have excess GP
+         * GP does not reset between turns, but may fade after combat ends (GM choice)
+________________
+
+
+✅ Summary
+         * GP builds at a fair rate for any party size
+         * Big parties take longer to charge, but unlock stronger, combo-based payoffs
+         * Small parties gain faster but must spend carefully
+This system keeps Gradient Skills special, dramatic, and strategic, not spammed or forgotten.
+Gradient Gauge Scaling by Party Size
+Team-Based Resource Balance for Cinematic Power
+________________
+
+
+💡 What Is the Gradient Gauge?
+The Gradient Gauge is a shared team resource that builds up over time as players use skills. It fuels powerful, cinematic Gradient Skills that can turn the tide of battle.
+         * The gauge is teamwide, not individual
+         * Every 5 skills used by the party = +1 GP (Gradient Point)
+         * GP is spent to activate special Gradient Skills, like Minor Finishers or Major Team Techniques
+________________
+
+
+⚖️ Why Scaling Is Needed
+Without scaling, small teams (e.g. 2–3 players) would build GP much faster than full 4–5 player teams, leading to frequent, unbalanced Gradient usage.
+To prevent this, GP costs for using Gradient Skills scale based on party size.
+________________
+
+
+📊 GP Scaling Table
+Party Size
+	GP Gain Rate
+	Minor Gradient Cost
+	Major Gradient Cost
+	2 Players
+	+1 GP per 3 skills
+	2GP
+	3 GP
+	3 Players
+	+1 GP per 4 skills
+	3 GP
+	5 GP
+	4 Players
+	+1 GP per 5 skills
+	4 GP
+	6 GP
+	5 Players
+	+1 GP per 6 skills
+	3 GP
+	7 GP
+	________________
+
+
+📘 Gradient Skill Costs (Revised)
+Gradient Skill Type
+	Effect Scope
+	GP Cost (base)
+	Minor Technique
+	Single-target or minor boost
+	3 GP
+	Major Technique
+	AoE, burst, revival, or team buff
+	6–7 GP
+	________________
+
+
+🌀 Additional Notes
+         * GM may adjust costs for special encounters (e.g., boss fights may allow discounted Gradient use)
+         * Certain Support or Passive skills may refund GP, or reduce cost once per battle
+         * You can only use one Gradient Skill per round, even if you have excess GP
+         * GP does not reset between turns, but may fade after combat ends (GM choice)
+________________
+
+
+✅ Summary
+         * GP builds at a fair rate for any party size
+         * Big parties take longer to charge, but unlock stronger, combo-based payoffs
+         * Small parties gain faster but must spend carefully
+This system keeps Gradient Skills special, dramatic, and strategic, not spammed or forgotten.
+
+
+
+
+Terrain & Hazard Interaction System – Arcanum Primus
+“The battlefield is a living weapon — master it, or be consumed by it.”
+________________
+
+
+🧱 Terrain Categories
+1. Standard & Obstructive Terrain
+Type
+	Effect
+	Open Ground
+	No effects. Normal movement and line of sight.
+	🪨 Rubble
+	Costs +1 Movement to pass through; can be destroyed (10 HP)
+	🧱 Walls
+	Cannot be passed; block all Line of Sight & ranged attacks unless bypassed by Jump
+	🌊 Water (Shallow)
+	Costs +1 AP to use any skill in water; ranged attacks -1 to hit
+	🔗 Chains / Webs
+	STR or DEX check (DC 12) to move through or break
+	Difficult Terrain
+	Costs double movement to cross (e.g., rubble, water, sand)
+	Cover (Half/Full)
+	+2 or +4 to AC vs ranged attacks and AoE. Can be destroyed (HP 5–15)
+	High Ground
+	+1 to hit and damage with ranged attacks or spells
+	Ledges / Cliffs
+	Falling hazard. Knockback can trigger fall damage (1d6 per 10 feet)
+	________________
+
+
+⚠️ Hazard Terrain & Zones
+Type
+	Trigger
+	Effect
+	🔥 Fire Zone
+	Start or end of turn
+	1d4 or 1d6 fire damage; Burned on CON fail
+	☠️ Acid Pool
+	End turn in it
+	1d6 damage and -1 AP
+	⚡ Electric Arc
+	Passing through
+	DEX save or take 2d4; metal armor = Disadvantage
+	🧊 Frozen Ground
+	Moving or standing
+	Movement halved unless STR check (DC 10); fall prone on fail
+	💀 Necrotic Mist
+	Enter or end turn
+	-2 to healing; WIS save or Fear for 1 round
+	Spikes / Traps
+	DEX Save or trigger
+	1d8 damage + Bleed (1d4/turn until healed)
+	Cursed Ground
+	Stand in area
+	WIS Save or suffer -1 AP or Disadvantage for 1 round
+	Storm Field
+	Use ranged attack inside
+	Lightning backlash (1d4 unresistable damage per shot)
+	________________
+
+
+🎭 Tactical Terrain Tools
+Feature Type
+	Description
+	🪵 Cover
+	+2 / +4 to Dodge and Ranged Saves
+	📐 High Ground
+	+1 to hit with ranged skills; +2 damage on Jump attacks
+	🔺 Breakable Pillars
+	Destroy (HP 20) to collapse on enemies for 2d6
+	💠 Magical Glyphs
+	Triggers once per battle: explode, heal, slow, silence, or grant +1 GP
+	💣 Volatile Crystal
+	Targeting it causes AoE (2d6) within 2 tiles
+	Jump Points
+	Allow Jump Reaction to avoid AoE or hazards
+	Cracked Floor
+	Collapses after 2+ turns; 2d6 fall damage + immobilize
+	Energy Pylons
+	INT check to activate: battlefield push, buff, or disruption effect
+	Blind Zone
+	Blocks line of sight; WIS check (DC 13) to act normally
+	________________
+
+
+🦘 Jump Interactions
+Jump can be used to:
+         * Evade terrain-based AoEs (e.g., collapsing bridge)
+         * Leap over obstacles (rubble, pits, flames, etc.)
+         * Reach ledges or elevated tiles (GM may call for DEX/STR check)
+         * React to traps or environmental changes (on GM Jump Signal)
+If all players Jump and succeed a GM-signaled hazard, they may trigger a Team Jump Counterattack (VBA damage for free).
+________________
+
+
+💢 Hazard Layering Rules
+Multiple terrain effects can stack. Example:
+         * A Frozen Floor covered in Necrotic Mist:
+         * Half movement + WIS save or Fear
+         * A fire-based attack may melt the terrain, removing the frozen state
+________________
+
+
+🧠 Terrain Strategy Tips
+Role
+	Best Use
+	DPS
+	Use high ground, trigger traps, destroy AoE structures
+	Support
+	Set up healing zones away from hazards, cleanse effects like Acid or Mist
+	Tank
+	Block off narrow paths, absorb terrain effects, knock enemies into danger
+	________________
+
+
+📏 Tile-Based Rules (Optional Grid Use)
+         * Standard tile = 5 ft
+         * Fire/Acid zones = 2x2 area
+         * Jump clears up to 2 tiles
+         * Elevation changes = +2 tiles to Jump DC
+________________
+
+
+🌀 Optional Terrain Traits (Future Expansion)
+Terrain Feature
+	Effect
+	Shifting Floor
+	Random tiles shift each round; DEX save or fall prone, lose 1 AP
+	Magic Fog
+	WIS check (DC 13) to target through; fail = miss, misplace, or fizzle
+	Dimensional Tear
+	Stepping on it teleports to a random location or hazard
+	Gravity Reversal
+	Gravity flips for 1–3 rounds; Jump becomes fall-prevention; fail = 1d6 damage
+	________________
+
+
+👁️‍🗨️ GM Usage Tips
+         * Place 1–2 hazards per battlefield for tension
+         * Mix terrain types to encourage reaction mechanics
+         * Use glyphs, ledges, and shifting floors in boss fights
+         * Let clever use of Jump, VCP, or Threads override dangers
+
+
+
+
+Team GP Skill Unlock Progression (Milestone Format)
+Players unlock 2 Minor and 2 Major Team Gradient Skills every 10 levels.
+________________
+
+
+🔟 Level 10 Unlocks
+✅ Choose 2 Minor + 2 Major Team GP Skills
+Minor Options
+         * Radiant Pulse – Heal all allies 1d6 + CHA, grant +1 AP
+         * Tether Sync – Link 2 allies: shared damage + combo boost
+         * Momentum Reset – Refresh Bonus Action for all
+         * Clarity Bloom – Cleanse 1 status from all allies
+         * Pierce the Fog – All allies ignore cover/concealment (1 turn)
+Major Options
+         * Echo Convergence – All gain +2 AP, +1 GP, free Reaction
+         * Thread of Rebirth – Revive all allies at 1 HP, grant 5 HP shield
+         * Teamwide Guard – Reduce next hit taken by 5 (party-wide)
+         * Harmonic Strike – All players use VBA with +2 damage
+         * Arcanum Break – All players use 1 skill (up to 3 AP) for free
+________________
+
+
+2️⃣0️⃣ Level 20 Unlocks
+✅ Choose 2 Minor + 2 Major Team GP Skills
+Minor Options
+         * Cleansing Tide – Heal 1d4 and remove 1 debuff
+         * Quickening Link – Bonus Action = 0 AP this round
+         * Tactical Flow – All allies gain +1 to next Reaction roll
+         * Dispel Wave – Strip 1 enemy buff (party-wide)
+         * Aura Swirl – Copy a random buff to nearby ally
+Major Options
+         * Fortress Link – Tank + Support Fusion: shield wall + mass Taunt
+         * Pulse Cascade – DPS + Support Fusion: AoE burst + AP regen
+         * Overdrive Lockstep – All players take 1 shared bonus Action
+         * Field of Echoes – Phantom strikes from each player (1d4)
+         * Time Fragment – Delay enemy turn phase
+________________
+
+
+3️⃣0️⃣ Level 30 Unlocks
+✅ Choose 2 Minor + 2 Major Team GP Skills
+Minor Options
+         * Flicker Guard – Prevent 1 debuff per ally
+         * Stack Share – Share 1 stack (Perfection, Thread, VCP)
+         * Quick Cast – Reduce AP cost of next skill by 1
+         * Guardian Echo – Auto-intercept 1 ally hit
+         * Echo Feedback – When hit, refund +1 AP once
+Major Options
+         * All As One – Next attack from each player lands simultaneously
+         * Fate Anchor – If ally falls this round, auto-revive at 1 HP
+         * Echo Meld – Merge and re-spread stacks across party
+         * Mirror Pulse – Reflect 1 debuff to attacker
+         * Shared Will – Transfer AP or GP between two players
+Team Gradient Skill Unlock Progression (Lv 40–90)
+Players choose 2 Minor + 2 Major GP skills at each 10-level milestone. All skills are team-wide effects.
+________________
+
+
+4️⃣0️⃣ Level 40 Unlocks
+✅ Choose 2 Minor + 2 Major
+Minor Options
+         * Aura Rebalance – Spread all buffs from one ally to all others
+         * Sigil Break – Remove 1 barrier or reflect effect from all enemies
+         * Phase Bloom – Remove 1 random debuff + apply regen (1d4/round)
+         * Battle Meditation – Everyone gains +1 to next d20 roll this round
+         * Lesser Echo Link – Party shares passive effects for 1 round
+Major Options
+         * Eclipse Bloom – +1 AP and status immunity for 1 round
+         * Echo Meld – Merge and redistribute party’s stacks (Threads, VCP, Perfection)
+         * World Mirror – Reflect next AoE targeting the team
+         * Overdrive Lockstep – All players take 1 shared Bonus Action
+         * Full Sync – 2 selected players perform a combo move simultaneously
+________________
+
+
+5️⃣0️⃣ Level 50 Unlocks
+✅ Choose 2 Minor + 2 Major
+Minor Options
+         * Veil Link – All incoming damage reduced by 2 this round
+         * Echo Radiance – Random status effect applied to all enemies
+         * Stack Channel – Store a party member’s unused resource until next round
+         * Pulse Filter – Debuffs last 1 round less for all allies
+         * Charge Relay – All allies regenerate +1 AP at round start next turn
+Major Options
+         * Fate Anchor – If any ally would die this round, instead revive at 1 HP
+         * All As One – All players make 1 simultaneous VBA or skill strike
+         * Time Fragment – Delay 1 enemy’s entire turn
+         * Field of Echoes – Each player summons a phantom copy for +1 attack
+         * Mirror Pulse – Reflect 1 status or ability back to enemy team
+________________
+
+
+6️⃣0️⃣ Level 60 Unlocks
+✅ Choose 2 Minor + 2 Major
+Minor Options
+         * Stack Bank – Preserve 1 unused stack (Thread, VCP, Perfection) for 2 rounds
+         * Tactical Dissonance – Prevent enemies from using Reactions this round
+         * Guardian Ripple – Nearest Tank auto-absorbs 1 hit for allies
+         * Momentum Shift – Enemies lose 1 AP next round
+         * Quick Rewind – Re-roll 1 failed d20 (1 ally only)
+Major Options
+         * Unity Sigil – Boost all party passives by +1 for 2 rounds
+         * Twilight Bind – Root all enemies (no movement, -2 to Dodge)
+         * Echo Storm – Three random AoEs hit enemy zones (1d8 + status)
+         * Shared Will – Pool and redistribute total party AP
+         * Singular Focus – All ally attacks auto-hit this round
+________________
+
+
+7️⃣0️⃣ Level 70 Unlocks
+✅ Choose 2 Minor + 2 Major
+Minor Options
+         * Echo Tether – Allow one downed ally to act at 1 HP
+         * Echo Swap – Swap positions of two allies instantly
+         * Aura Gate – Next support effect applies to entire party
+         * Thread Stash – Refund 1 Vital Thread or resource
+         * Status Loop – Re-apply the last removed buff/debuff to a new target
+Major Options
+         * Resonance Overload – All allies gain +3 AP, but take 2 recoil damage
+         * Echo Unity – Use 2 Minor or 1 Major + 1 Fusion skill in one turn
+         * Fractured Loop – Replay your entire last turn (1 player only)
+         * Pulse Fusion – Combine two selected Minor GP effects
+         * Cascade Gate – Extend all buffs/debuffs by 1 round
+________________
+
+
+8️⃣0️⃣ Level 80 Unlocks
+✅ Choose 2 Minor + 2 Major
+Minor Options
+         * Veil Cloak – Party is hidden from enemies’ targeting for 1 round
+         * Stack Fracture – Burn 1 enemy resource (Threads, VCP, etc.)
+         * Grace Bloom – Regain 1 Reaction across the team
+         * Echo Burn – Convert 1 unused AP into +2 damage on next hit
+         * Rift Pulse – Enemies cannot heal for 1 round
+Major Options
+         * Arcanum Roar – Multielement AoE based on each player’s origin
+         * Thread Gate – Temporarily fuse two players for a combined attack
+         * Phase Collapse – Shatter all enemy status effects (buffs & barriers)
+         * Chain Storm – Combo trigger: 3 skills in sequence with stacking bonuses
+         * Memory Pulse – Re-use last team GP skill again
+________________
+
+
+9️⃣0️⃣ Level 90 Unlocks (Final GP Tier)
+✅ Choose 2 Minor + 2 Major
+Minor Options
+         * Soul Mirror – Copy 1 enemy buff or passive onto an ally
+         * Reactive Flow – Everyone gains +2 to next Reaction roll
+         * Collapse Ward – Immunity to the next fatal hit this round (1 ally)
+         * Lingering Echo – Delayed GP effect triggers next round automatically
+         * Siphon Thread – Steal 1 stack (VCP, Thread, etc.) from an enemy
+Major Options
+         * Echo Unity (Enhanced) – Use any 2 Minor OR 1 Major + 1 Fusion
+         * Final Pulse – Party recovers 3 AP and gains +1 GP
+         * Twilight Bridge – Reset battlefield terrain for 2 turns
+         * Limit Trigger – All allies enter their Echoform or equivalent state
+         * Fate Threadlock – Lock initiative order and Reaction flow for 1 full round
+
+
+Overkill Strike System
+Fast-Clear Mechanic for Dungeon Crawling and Mob Encounters – Arcanum Primus
+________________
+
+
+🎯 What Is Overkill Strike?
+Overkill Strike is a streamlined combat option that allows players to instantly dispatch weak enemies during low-stakes or dungeon-style encounters.
+It speeds up pacing, reduces bloat in mob-heavy rooms, and empowers players to feel powerful against under-leveled threats — without draining AP on irrelevant combat rolls.
+________________
+
+
+🧭 When Can It Be Used?
+Overkill Strike is only available in:
+         * Dungeon crawls
+         * Mob wave fights
+         * Exploration skirmishes
+         * Random encounters
+❌ Cannot be used during:
+         * Boss fights
+         * Elite encounters
+         * Major story battles
+         * Named NPC showdowns
+         * Any fight where the GM declares “no Overkill”
+________________
+
+
+✅ Trigger Conditions
+To use an Overkill Strike:
+         * The enemy must be at least 3 levels below the player
+         * The enemy must be a standard or minion-tier creature
+         * The target must be:
+         * At 20% HP or less, OR
+         * Previously staggered, stunned, or otherwise vulnerable
+________________
+
+
+🔋 Cost & Action Type
+         * Cost: 1 AP
+         * Type: Replaces your Action on your turn
+         * Targets 1 enemy in melee or ranged range
+________________
+
+
+💥 Effect
+The enemy is immediately:
+         * Defeated — no d20 roll or damage calculation required
+         * Removed from combat with a cinematic execution, styled to your class/archetype
+Examples:
+         * DPS cleaves through a goblin with no effort
+         * Tank shoulder-checks a weakened drone into a wall
+         * Supporter blasts a crawling creature with finishing magic
+________________
+
+
+🔁 Optional Cleave Variant (GM Discretion)
+         * If a player is 5+ levels above a cluster of weak foes, they may:
+         * Spend 2 AP for a Multi-Overkill Sweep
+         * Defeat 2–3 valid targets at once (adjacent or in range)
+This option is GM-triggered or approved only, meant for clearing filler mobs during fast dungeon pacing.
+________________
+
+
+🌀 Dungeon Flow Purpose
+Overkill Strike supports the game loop of dungeon crawling:
+         * You move through combat rooms efficiently
+         * You're rewarded for level progression with “trash clear” dominance
+         * It lets players conserve big AP skills for meaningful fights
+________________
+
+
+🚫 Narrative Restriction Reminder
+Overkill Strike is disabled automatically in:
+         * Major plot battles
+         * Boss chambers
+         * Cutscene-initiated encounters
+         * Any enemy tied to lore, puzzles, or tactical structure
+________________
+
+
+✅ Summary
+Feature
+	Value
+	Where Used
+	Dungeon runs, mob waves, non-boss fights
+	Trigger
+	Enemy is 3+ levels lower + low HP
+	Cost
+	1 AP
+	Effect
+	Instantly defeat target (no roll)
+	Optional
+	2 AP = Overkill Sweep (GM approval)
+	Locked Out
+	Bosses, story fights, elite enemies
+	
+
+Variable Basic Attack (VBA) – Arcanum Primus
+📌 What is a VBA?
+A Variable Basic Attack (VBA) is the fallback, 0 AP attack available to all players. It’s used when a character:
+         * Has no AP left
+         * Wants to conserve AP
+         * Is counterattacking with a Crit Parry
+         * Needs to build AP (since a successful VBA hit gives +1 AP)
+________________
+
+
+🎯 Core Rules
+         * VBA costs 0 AP
+         * Can only be used once per turn as your main Action (not a Bonus Action)
+         * Grants +1 AP if it hits
+         * Damage scales by character level, encouraging higher-level characters to still have a reliable no-cost attack
+         * Uses STR, DEX, or INT modifier depending on the character’s attack style:
+         * STR for melee/physical
+         * DEX for ranged/finesse
+         * INT for elemental/tech-themed VBAs
+________________
+
+
+📈 VBA Damage Scaling Table
+Level Range
+	VBA Dice
+	Lv 1–9
+	1d4
+	Lv 10–29
+	1d6
+	Lv 30–59
+	1d8
+	Lv 60–89
+	2d6
+	Lv 90–100
+	2d8
+	🧠 Example:
+A Level 12 rogue-style character with DEX +3 uses a finesse VBA.
+→ Rolls 1d6 + 3 damage.
+If it hits, they gain +1 AP.
+________________
+
+
+💥 Crits and VBA
+         * Crits still apply to VBAs (roll natural 20 → crit)
+         * Crit effect = +50% total damage or double dice rolled (GM discretion)
+         * On a Crit Parry, the counterattack can be a VBA or a 2 AP skill (if you have the AP to spend)
+________________
+
+
+🔁 Design Goals
+         * Keeps low-level characters active when out of AP
+         * Gives high-level characters a reliable low-cost option between big moves
+         * Allows for precision or chip-damage playstyles
+         * Makes counterattacks meaningful without needing AP saved up
+How to Trigger It – Team Counterattack
+To activate a Team Counterattack:
+         * Every participating player must:
+
+            * Use Parry as their Reaction
+
+            * Roll a modified (dirty) 18–19, or a natural 20 (Perfect Parry)
+
+The number of required qualifying rolls scales with team size:
+Active Players
+	Required Counter-Parry Rolls (Dirty 18–19 or Nat 20)
+	2
+	Both players must succeed
+	3
+	At least 2 players
+	4
+	At least 3 players
+	5+
+	At least 4 players
+	✅ Dirty 18–19 counts toward triggering the team counter.
+🎯 Only natural 20s are still considered Perfect Parries, which may have special passive effects elsewhere (e.g., class perks).
+________________
+
+
+💥 What Happens
+When the threshold is met:
+               * All players who rolled dirty 18–19 or nat 20 may make a free counterattack using their VBA (Variable Basic Attack)
+
+✅ Counterattack Rules:
+                  * Costs 0 AP
+
+                  * Uses VBA damage scaling by level
+
+                  * Adds STR, DEX, or INT modifier (based on weapon/skill type)
+
+                  * Does NOT grant AP on hit
+
+                  * Triggers immediately after the enemy’s turn, before the next player acts
+
+________________
+
+
+🧪 Example
+3 players:
+                     * Tank rolls 19 (after modifiers) ✅
+
+                     * DPS rolls dirty 18 ✅
+
+                     * Support rolls nat 20 ✅
+
+→ All qualify → Team Counterattack is triggered
+Each makes a free VBA attack, even with no AP remaining.
+________________
+
+
+🔒 Restrictions
+                        * Once per encounter, unless modified by passives, Sigils, or Traits
+
+                        * All participants must have used Parry
+
+                        * Does not stack with Team Jump Counterattack
+
+________________
+
+
+🌈 Why This Mechanic Matters
+                           * Boosts synergy without locking rewards behind raw luck
+
+                           * Lets well-built characters contribute with smart stat investment
+
+                           * Encourages team defense timing
+
+                           * Enables Tank, Support, or hybrid builds to have offensive utility moments
+ Jump Signal – GM Combat Tool
+Reaction-Based Hazard Avoidance – Combat-Only Version
+________________
+
+
+🎯 What Is the Jump Signal?
+The Jump Signal is a combat mechanic used by the GM to trigger environmental hazards or AoE attacks that players can avoid — but only if they use the Jump Reaction.
+This gives Jump a unique defensive identity in combat, separate from Dodge and Parry.
+________________
+
+
+🧠 When to Use the Jump Signal (GM-Only)
+The GM issues a Jump Signal during combat to represent:
+Combat Scenario
+	Examples
+	Enemy AoE attacks
+	Shockwaves, cone blasts, energy rings, boss jumps
+	Battlefield shifts
+	Collapsing floors, explosive crates, energy zones
+	Stage mechanics
+	Lava eruptions, electric pulses, rotating platforms
+	Environmental triggers
+	Falling debris, sudden poison clouds, crumbling ledges
+	❗ This is not player-initiated. The GM says,
+“⚠️ Jump now!”
+…and any player may use their Reaction to attempt a Jump.
+________________
+
+
+🎲 Jump Reaction Roll
+                              * Roll: d20 + WIS or DEX (player chooses)
+                              * Jump is always a Reaction, and costs the only Reaction you get that round
+Roll Result
+	Effect
+	1–12
+	❌ Fail – full hazard damage or effect (GM defined)
+	13–16
+	⚠️ Graze – half damage or weakened effect
+	17+
+	✅ Success – avoid completely, land safe or repositioned
+	________________
+
+
+⚠️ Tactical Limitations
+                              * You can only Jump if you haven’t already used your Reaction (Dodge, Parry, etc.)
+                              * Some boss mechanics may require Jump to survive (e.g. unblockable floor wipe)
+________________
+
+
+💥 Optional Bonus: Team Jump Counterattack
+If all active players succeed their Jump (17+), they unlock a free Team Jump Counterattack:
+                              * Each player makes a free VBA attack (0 AP)
+                              * Use normal VBA damage scaling + relevant mod (STR/DEX/INT)
+                              * No AP is gained from this counterattack
+                              * Happens immediately after the hazard resolves, before enemy turn ends
+⚔️ Cinematically: the team leaps over danger and strikes back midair, anime-style.
+________________
+
+
+🌀 Why It Works in Combat
+                              * Adds real-time tension and group synergy
+                              * Keeps Reactions dynamic — Jump isn’t just a puzzle option
+                              * Encourages movement-focused builds and awareness
+                              * Supports cinematic combat pacing (boss fights, arena stages, setpiece turns)
+
+
+
+
+Arcanum Primus – Boss Creation Guide (Lv 1–95)
+“A boss is more than a bag of HP — it’s a test of synergy, survival, and style.”
+You don’t have to follow this guide exactly, but it’s strongly recommended. It helps you avoid being a damage sponge DM, and ensures your bosses evolve with the party's mechanics and pacing.
+________________
+
+
+🌟 Boss Creation Framework (Lv 1–30)
+⚔️ Step 1: Base HP Formula
+Boss HP = 50 + (10 × Boss Level)
+
+
+
+
+________________
+
+
+💡 Step 2: Add Role-Based HP Bonuses
+Role
+	HP Bonus per Player
+	DPS
+	+18 HP
+	Tank
+	+25 HP
+	Support
+	+8 HP
+	________________
+
+
+📏 Step 3: Party Size Modifier
+Party Size
+	Multiplier
+	1
+	×0.6
+	2
+	×0.75
+	3
+	×0.9
+	4
+	×1.0
+	5
+	×1.2
+	6
+	×1.4
+	________________
+
+
+🔀 Step 4: Phase Modifier
+Phases
+	Multiplier
+	1 Phase
+	×1.0
+	2 Phases
+	×1.2
+	3 Phases
+	×1.4
+	________________
+
+
+🔄 Step 5: Role Synergy Effects (Optional)
+                              * 3+ DPS: Boss gains +1 Reaction/Phase; phase thresholds occur 5 HP earlier
+                              * 2+ Tanks: Boss ignores 1st Taunt each Phase; gains cleave-AoEs
+                              * 2+ Supports: Healing reduced 25% unless cleansed; debuffs last +1 round
+________________
+
+
+📊 Step 6: Final HP Formula (Lv 1–30)
+Boss HP = (50 + 10 × Level)
+        + (18 × # DPS)
+        + (25 × # Tanks)
+        + (8 × # Supports)
+        → × Party Modifier
+        → × Phase Modifier
+
+
+
+
+________________
+
+
+🧠 Step 7: Boss Action Template (Lv 1–30)
+Level Range
+	Actions
+	AP Pool
+	Features
+	1–10
+	1 + Bonus
+	4–6
+	1–2 skills, basic reaction
+	11–20
+	+Reaction
+	6–8
+	Phase shift, soft AoE
+	21–30
+	Full economy
+	8–10
+	Multi-phase, field denial
+	________________
+
+
+🛠️ Step 8: Boss Mechanics (Early Game)
+                              * Basic Attack (1–2 AP): 1d6–1d8 + status
+                              * Heavy Skill (4–5 AP): 2d6 AoE, reaction denial
+                              * Reaction: Parry or Dodge
+                              * Passive: Triggered effect (e.g., shield, terrain, status boost)
+Phase Triggers:
+                              * 2 Phase: Trigger new move/passive @ 50% HP
+                              * 3 Phase: Desperation move @ 25% HP
+________________
+
+
+⏳ Step 9: Optional Enrage Timer
+Enrage Turn = 5 + # of Players
+
+
+
+
+Enrage Effects:
+                              * +2 AP/turn
+                              * +25% damage
+                              * AoE burst, GP denial, or reaction lockout
+________________
+
+
+🧪 Step 10: Example Boss (Lv 1)
+                              * Name: Maw of Cinders
+                              * Level: 1
+                              * HP: 129 (calculated)
+                              * AP: 4
+                              * Skills:
+                              * Firelash (2 AP): 1d6 + Burn (50%)
+                              * Ashstep (2 AP): 1d6, jumps behind weakest target
+                              * Reaction: Parry (WIS +0)
+                              * Passive: Burn active = +2 damage
+                              * Phase: 1
+                              * Arena: Cracked ash, no terrain effects
+                              * Enrage (Turn 6+): Firelash becomes AoE (1 tile)
+________________
+
+
+🏋️ Base Boss HP Chart (Lv 1–39)
+Level
+	Base HP
+	
+
+	Level
+	Base HP
+	
+
+	Level
+	Base HP
+	1
+	60
+	
+
+	15
+	200
+	
+
+	29
+	340
+	2
+	70
+	
+
+	16
+	210
+	
+
+	30
+	350
+	3
+	80
+	
+
+	17
+	220
+	
+
+	31
+	360
+	4
+	90
+	
+
+	18
+	230
+	
+
+	32
+	370
+	5
+	100
+	
+
+	19
+	240
+	
+
+	33
+	380
+	6
+	110
+	
+
+	20
+	250
+	
+
+	34
+	390
+	7
+	120
+	
+
+	21
+	260
+	
+
+	35
+	400
+	8
+	130
+	
+
+	22
+	270
+	
+
+	36
+	410
+	9
+	140
+	
+
+	23
+	280
+	
+
+	37
+	420
+	10
+	150
+	
+
+	24
+	290
+	
+
+	38
+	430
+	11
+	160
+	
+
+	25
+	300
+	
+
+	39
+	440
+	12
+	170
+	
+
+	26
+	310
+	
+
+	
+
+	
+
+	13
+	180
+	
+
+	27
+	320
+	
+
+	
+
+	
+
+	14
+	190
+	
+
+	28
+	330
+	
+
+	
+
+	
+
+	________________
+
+
+💡 Boss Creation Framework (Lv 40–95)
+"By this tier, the battlefield isn’t a stage — it’s a crucible. Every choice cuts deep."
+________________
+
+
+📊 Base HP Formula (Mythic Scaling)
+Boss HP = 400 + (Level × 15)
+        + (25 × # DPS)
+        + (35 × # Tanks)
+        + (12 × # Supports)
+        → × Party Size
+        → × Phase Count
+
+
+
+
+________________
+
+
+🔹 Role-Based HP Bonuses (Lv 40–95)
+Role
+	HP Bonus
+	DPS
+	+25
+	Tank
+	+35
+	Support
+	+12
+	________________
+
+
+📏 Party Size Modifiers
+(Same as Lv 1–30)
+________________
+
+
+🔄 Phase Count Modifiers
+Phase Count
+	HP Multiplier
+	2 Phases
+	×1.2
+	3 Phases
+	×1.4
+	4+ Phases
+	×1.6
+	________________
+
+
+⚔️ Boss Power Curve (Tiered)
+Level
+	AP Pool
+	Action Economy
+	Phase Count
+	Threats
+	40–59
+	8–10
+	Action + Bonus + Reaction
+	2–3
+	AoEs, terrain, counters
+	60–79
+	10–12
+	Full economy + interrupts
+	3–4
+	Battlefield control, Echoform
+	80–95
+	12–14
+	Mythic AI, phase stacking
+	4–5
+	Law shifts, timeline denial
+	________________
+
+
+🧰 Mythic Mechanic Templates
+Type
+	Example
+	Field Rewrite
+	Changes terrain type (fire → gravity → void)
+	Reaction Clash
+	Counters Jump/Dodge with scripted traps
+	AP Burnout
+	Reduces target AP or drains GP on hit
+	Fusion Block
+	Temporarily locks Fusion Skill access
+	Echo Summons
+	Clones 1 player as enemy illusion
+	Sigil Overload
+	Seals a passive/sigil for 2 turns
+	________________
+
+
+⚠️ Advanced Enrage Triggers
+                              * HP Thresholds (e.g., <25%)
+                              * Turn Timers (e.g., Turn 10+)
+                              * GP Overuse (3+ GP skills in 1 round)
+Enrage Effects:
+                              * Tier 6/7 AoE burst (3d12)
+                              * Healing reversal
+                              * GP lockdown
+________________
+
+
+📍 Arena Design (Lv 40–95)
+                              * Layered hazards (e.g., fire zone + gravity well)
+                              * Corrupted tiles = AP drain
+                              * Edge collapse = fall death
+                              * Frozen rings = delay movement
+________________
+
+
+🧬 Lv 75 Boss Example: Throne of the Hollow Root
+                              * HP: 400 + (75×15) = 1,525 + 97 = 1,622 × 1.4 (3 phase) = ~2,271 HP
+                              * AP: 12
+                              * Skills:
+                              * Flesh Spire (3 AP) — 2d10 cone
+                              * Mycelial Overrun (5 AP) — infects 2 players
+                              * Cradle Collapse (4 AP) — breaks arena edge
+                              * Passive: clone Sporefield (clones player every 3 turns)
+                              * Enrage: 3 GP skills in 1 round
+                              * Enrage Effect: All clones become real for 1 round
+                              * Arena: Grave nexus + shifting tiles
+________________
+
+
+🔢 Base Boss HP Chart (Lv 40–95)
+Level
+	Base HP
+	
+
+	Level
+	Base HP
+	
+
+	Level
+	Base HP
+	40
+	1,000
+	
+
+	58
+	1,270
+	
+
+	76
+	1,540
+	41
+	1,015
+	
+
+	59
+	1,285
+	
+
+	77
+	1,555
+	42
+	1,030
+	
+
+	60
+	1,300
+	
+
+	78
+	1,570
+	43
+	1,045
+	
+
+	61
+	1,315
+	
+
+	79
+	1,585
+	44
+	1,060
+	
+
+	62
+	1,330
+	
+
+	80
+	1,600
+	45
+	1,075
+	
+
+	63
+	1,345
+	
+
+	81
+	1,615
+	46
+	1,090
+	
+
+	64
+	1,360
+	
+
+	82
+	1,630
+	47
+	1,105
+	
+
+	65
+	1,375
+	
+
+	83
+	1,645
+	48
+	1,120
+	
+
+	66
+	1,390
+	
+
+	84
+	1,660
+	49
+	1,135
+	
+
+	67
+	1,405
+	
+
+	85
+	1,675
+	50
+	1,150
+	
+
+	68
+	1,420
+	
+
+	86
+	1,690
+	51
+	1,165
+	
+
+	69
+	1,435
+	
+
+	87
+	1,705
+	52
+	1,180
+	
+
+	70
+	1,450
+	
+
+	88
+	1,720
+	53
+	1,195
+	
+
+	71
+	1,465
+	
+
+	89
+	1,735
+	54
+	1,210
+	
+
+	72
+	1,480
+	
+
+	90
+	1,750
+	55
+	1,225
+	
+
+	73
+	1,495
+	
+
+	91
+	1,765
+	56
+	1,240
+	
+
+	74
+	1,510
+	
+
+	92
+	1,780
+	57
+	1,255
+	
+
+	75
+	1,525
+	
+
+	93
+	1,795
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	94
+	1,810
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	95
+	1,825
+	Tank classes 
+Gravemaul [ARCANE TANK]
+Theme: Shadow-bound knight who converts pain into power.
+Resource Mechanic: Hex Wounds – You gain 1 Hex Wound when:
+                              * You take 8+ damage in a single hit
+                              * You successfully taunt enemies
+                              * You Parry perfectly (18–19)
+________________
+
+
+🔸 LEVEL 1
+Starting Features:
+                              * 2 Tier 1 Skills:
+                              * Gravebind Lash – A melee arcane strike that deals minor damage and marks enemies with a "Wound Sigil."
+                              * Arcane Shield Draw – Creates a shadowy barrier, reducing incoming damage for one turn (also grants +1 Hex Wound if hit).
+                              * Reaction:
+                              * Shadow Parry – If you roll 17–19, gain +1 Hex Wound.
+                              * Hex Wound Max Cap: 2 (Level 1 base)
+Playstyle at Lv 1:
+Gravemaul builds up slowly through defense and punishment. You encourage enemies to hit you, then hit back harder.
+________________
+
+
+🔸 LEVEL 2
+Unlock: Passive Bonus – Dark Overflow
+                              * When you reach your max Hex Wounds, your next attack deals +1 flat damage and refreshes 1 Bonus Action.
+                              * This encourages smart timing and burst retaliation.
+________________
+
+
+🔸 LEVEL 3
+Unlock: +1 Tier 1 Skill
+                              * Sigil of the Bound – Places a cursed rune on the ground. If enemies step on it, they become Weakened (-1 damage) for 1 round.
+                              * Tactical skill for terrain control and punishment.
+________________
+
+
+🔸 LEVEL 4
+Unlock: Gradient Synergy Slot
+                              * Gravemaul now contributes 1 bonus GP when hitting marked enemies or spending 3+ Hex Wounds in a single skill.
+GP Flavor Skill Access (Team GP Skills):
+                              * Gravemaul unlocks the ability to trigger team GP effects, especially defensive ones like:
+                              * Black Bloom Pulse – Minor heal + minor AoE shield
+________________
+
+
+🔸 LEVEL 5
+Unlocks:
+                              * Skill Cap Raised → You may now equip 3 Tier 1 Skills
+                              * Hex Wound Max raised to 3
+Optional Upgrade Pick (Choose 1):
+                              * Empowered Gravebind – Adds 1d4 damage to your Gravebind Lash when at max Hex Wounds
+
+OR
+
+                              * Hex Flare Detonation – Spend all Hex Wounds to deal AoE 1d6 shadow damage in a small radius (1/encounter)
+
+Crystalflex [POWER TANK]
+Theme: A mutant with adaptive crystalline armor that changes shape to counter different threats. Reflects blows, blocks status effects, and adjusts defense on the fly.
+Resource Mechanic: Flex Points
+                                 * Gain 1 Flex Point when:
+                                 * You Dodge or Parry successfully
+                                 * You Protect an ally who gets targeted
+                                 * You resist or shrug off a status effect (even if only partially)
+Flex Cap:
+                                 * Level 1: Max 2
+                                 * Level 5: Max 3
+                                 * Spend to reflect damage, harden armor, or form crystal walls/shields.
+________________
+
+
+🔸 LEVEL 1
+Starting Features:
+                                 * 2 Tier 1 Skills:
+                                 * Reflective Edge – 3 AP. Melee strike that grants “Reflect 1” for 1 turn (1 damage is bounced back to attacker). Spend 1 Flex Point to reflect 2 instead.
+                                 * Crystal Shield Bloom – 2 AP. Target self or ally. Create a 1 HP barrier (blocks 1 hit). If the barrier breaks, gain +1 Flex Point.
+                                 * Reaction:
+                                 * Prism Counterstance – On a Perfect Parry or Dodge (18–19), gain +1 Flex Point and +1 to resist status next turn.
+Playstyle at Lv 1:
+Crystalflex is slippery but sharp—punishes enemies for hitting you or your team, and stays flexible in how it reacts. You’re not just a wall; you’re a mirror.
+________________
+
+
+🔸 LEVEL 2
+Unlock: Passive – Prismatic Feedback
+                                 * The first time each round you spend a Flex Point, deal +1 flat damage to the triggering enemy or apply “Weaken 1” (your choice).
+Small but steady pressure added to your defense.
+________________
+
+
+🔸 LEVEL 3
+Unlock: +1 Tier 1 Skill
+                                 * Facet Wall – 2 AP. Raise a crystal barrier between any 2 adjacent tiles. Blocks movement and ranged attacks until broken.
+                                 * Spend 1 Flex Point to extend the wall by 1 tile or make it reflect ranged damage once.
+________________
+
+
+🔸 LEVEL 4
+Unlock: Role Passive – Mutant Resilience
+                                 * When you would gain a status condition, roll 1d4:
+                                 * On 3–4: Reduce the duration by 1 turn
+
+                                 * On 4: Ignore the status entirely
+
+(Once per round)
+
+Crystalflex becomes harder to control with debuffs.
+________________
+
+
+🔸 LEVEL 5
+Unlocks:
+                                    * Equip Limit Increased → May now equip 3 Tier 1 Skills
+                                    * Flex Cap Raised to 3
+Optional Upgrade Pick (Choose 1):
+                                    * Refract Shatter – Spend 3 Flex Points to unleash a crystal nova: enemies in 2 tiles must roll DEX or take 1d6 radiant/ice damage and be Slowed.
+                                    * Mirrorform – If you start your turn with 3 Flex Points, you may gain “Reflect 2” for free this round.
+Sonic Guard [TECH TANK]
+Theme: A frontline disrupter who weaponizes sonic pulses and reverberating shields. Uses vibration fields to interfere, counter, and weaken.
+Resource Mechanic: Reverb Nodes
+                                    * Gain 1 Reverb Node when:
+                                    * You successfully Parry or Dodge
+                                    * You use a skill that affects 2+ targets
+                                    * You prevent damage with a barrier or block
+Node Cap:
+                                    * Level 1: Max 2
+                                    * Level 5: Max 3
+                                    * Spend Nodes to echo abilities, create sound zones, or interrupt enemies.
+________________
+
+
+🔸 LEVEL 1
+Starting Features:
+                                    * 2 Tier 1 Skills:
+                                    * Pulse Clash – 2 AP. Melee bash that applies “Disorient” (target suffers –1 to next d20 roll). Spend 1 Reverb Node to affect 1 additional adjacent enemy.
+                                    * Soundwall Emit – 3 AP. Project a 1-tile-wide “Soundwall” forward. Enemies that pass through take 1 sonic damage and lose Reactions until end of turn.
+                                    * Reaction:
+                                    * Feedback Parry – On Perfect Parry (18–19), gain +1 Reverb Node and apply “Echo” to your next skill (lets it hit twice with reduced power: 1d4 bonus).
+Playstyle at Lv 1:
+Sonic Guard thrives on constant interference. You don’t just absorb hits — you screw with enemy timing, remove their reactions, and control the soundspace like a sonic bouncer.
+________________
+
+
+🔸 LEVEL 2
+Unlock: Passive – Sonic Reflex Frame
+                                    * Whenever you gain 2 Nodes in one round, your next Reaction gains +2 to its roll (Parry/Dodge).
+This rewards tight timing and active defense.
+________________
+
+
+🔸 LEVEL 3
+Unlock: +1 Tier 1 Skill
+                                    * Vibration Lock – 3 AP. Select 1 enemy within 4 tiles. Their next movement triggers a shock pulse: 1d6 sonic damage and Slowed.
+                                    * Spend 1 Reverb Node to also cancel their next Reaction.
+________________
+
+
+🔸 LEVEL 4
+Unlock: Passive – Echofield Harmony
+                                    * When standing within 1 tile of an Ally’s Node, Glyph, or Barrier, your Reverb Node cap increases by +1 for the turn (temporary).
+This encourages support synergy and tech formations.
+________________
+
+
+🔸 LEVEL 5
+Unlocks:
+                                    * Equip Limit Increased → May now equip 3 Tier 1 Skills
+                                    * Reverb Node Cap Raised to 3
+Optional Upgrade Pick (Choose 1):
+                                    * Sonic Detonation – Spend 3 Reverb Nodes to unleash a 2-tile radius AoE for 1d6 sonic damage and apply “Disorient” to all hit.
+                                    * Sound Lure – If you end your turn without moving, enemies within 3 tiles have –1 to hit you next round.
+Thornback [HYBRID DPS/TANK]
+Theme: A brutal melee tank clad in living armor and barbs. Every hit taken fuels a savage counterstrike. Bleeds. Punishes. Persists.
+Resource Mechanic: Bloodbarbs
+                                    * Gain 1 Bloodbarb when:
+                                    * You're hit by a melee attack
+                                    * You move through or end your turn adjacent to 2+ enemies
+                                    * You use a Bleed-inflicting skill
+Bloodbarb Cap:
+                                    * Level 1: Max 2
+                                    * Level 5: Max 3
+                                    * Spend to trigger bonus Bleed, reactive strikes, or area spikes.
+________________
+
+
+🔸 LEVEL 1
+Starting Features:
+                                    * 2 Tier 1 Skills:
+                                    * Barbed Lunge – 2 AP. Dash 2 tiles and strike. If enemy is Bleeding, deal +1 damage. Grants +1 Bloodbarb if you hit from 2+ tiles away.
+                                    * Armor Thorns – 3 AP. Buff yourself for 1 round: any enemy that hits you in melee takes 1 damage. Spend 1 Bloodbarb to apply Bleed (1 turn) back on attacker.
+                                    * Reaction:
+                                    * Spine Parry – On Perfect Parry, enemy takes 1 damage and gains Bleed (1 round).
+Playstyle at Lv 1:
+Thornback walks the line between punishing tank and relentless aggressor. You're at your best surrounded and bleeding — but still standing.
+________________
+
+
+🔸 LEVEL 2
+Unlock: Passive – Pain is Fuel
+                                    * When you start your turn with 2+ Bloodbarbs, gain +1 AP once per round.
+Encourages getting into brawls and staying in the fight.
+________________
+
+
+🔸 LEVEL 3
+Unlock: +1 Tier 1 Skill
+                                    * Rake Slam – 3 AP. Wide arc melee swing (2-tile cleave). Enemies hit must roll CON or take Bleed (1 round).
+                                    * Spend 1 Bloodbarb to add Weaken (–1 damage) to one target of your choice.
+________________
+
+
+🔸 LEVEL 4
+Unlock: Role Passive – Brawler's Instinct
+                                    * When you're adjacent to 2+ enemies at the start of your turn, gain +1 to all Parry rolls that round.
+Makes you a real problem in the thick of it.
+________________
+
+
+🔸 LEVEL 5
+Unlocks:
+                                    * Equip Limit Increased → May now equip 3 Tier 1 Skills
+                                    * Bloodbarb Cap Raised to 3
+Optional Upgrade Pick (Choose 1):
+                                    * Thornburst Crash – Spend 3 Bloodbarbs to erupt in a spiked explosion. Enemies within 1 tile take 1d6 damage and begin Bleeding.
+                                    * Everthorn Shell – While at max Bloodbarbs, gain "Barbed Reflect": enemies take 1 damage when they miss you in melee (1 turn).
+Warflame [HYBRID DPS/TANK]
+Theme: A heat-charged berserker tank who builds pressure with each hit taken — until they detonate in a burst of burning rage. High-risk, high-flameplay.
+Resource Mechanic: Ignition Meter
+                                    * Gain 1 Heat when:
+                                    * You take damage from any source
+                                    * You deal fire damage
+                                    * You don’t move during your turn
+Ignition Cap:
+                                    * Level 1: Max 2
+                                    * Level 5: Max 3
+                                    * Spend Heat to burn enemies, buff attacks, or detonate AoEs.
+________________
+
+
+🔸 LEVEL 1
+Starting Features:
+                                    * 2 Tier 1 Skills:
+                                    * Scorch Drive – 2 AP. Melee attack that applies Burn (1 turn) on hit. If target is already Burning, deal +1 fire damage and gain +1 Heat.
+                                    * Molten Shell – 3 AP. Flame barrier: reduces damage by 1 this turn. If hit, attacker takes 1 Burn. Grants +1 Heat when triggered.
+                                    * Reaction:
+                                    * Combustive Parry – On Perfect Parry (18–19), gain +1 Heat and inflict Burn (1 turn) on attacker.
+Playstyle at Lv 1:
+Warflame builds and burns — you become more volatile each turn, and if enemies don’t deal with you fast, you explode.
+________________
+
+
+🔸 LEVEL 2
+Unlock: Passive – Rising Inferno
+                                    * At 2 Heat, your first melee attack each round deals +1 fire damage.
+                                    * At 3 Heat, all Burn effects you apply last +1 turn.
+Rewards staying hot and aggressive.
+________________
+
+
+🔸 LEVEL 3
+Unlock: +1 Tier 1 Skill
+                                    * Flamequake Rush – 3 AP. Dash 3 tiles in a straight line. All enemies passed through must roll DEX or take 1d6 fire damage and be Slowed (1 round).
+                                    * Spend 1 Heat to auto-apply Burn to all hit enemies.
+________________
+
+
+🔸 LEVEL 4
+Unlock: Flame Synergy – Heat Echo
+                                    * When you Burn 2+ enemies in one round, gain +1 GP toward team Gradient Skills (once per round).
+Turns your damage into team momentum.
+________________
+
+
+🔸 LEVEL 5
+Unlocks:
+                                    * Equip Limit Increased → May now equip 3 Tier 1 Skills
+                                    * Ignition Cap Raised to 3
+Optional Upgrade Pick (Choose 1):
+                                    * Inferno Burst – Spend 3 Heat to create a 2-tile AoE explosion centered on you. Deals 1d6 fire damage and applies Burn (2 rounds) to all enemies hit.
+                                    * Pyro Drive – When at max Heat, your movement range increases by +1 and your next hit ignites the ground (fire tile: burns enemies who end turn there).
+Cordium Warden [HEALING TANK]
+Theme: A symbiotic guardian who wears living armor, drawing strength from nature’s resilience. Thrives by shielding allies and blooming regenerative force in the heat of battle.
+Resource Mechanic: Cordium Bloom
+                                    * Gain 1 Bloom when:
+                                    * You heal an ally for 3+ HP
+                                    * You successfully Parry or protect an ally from damage
+                                    * You start your turn below half HP
+Bloom Cap:
+                                    * Level 1: Max 2
+                                    * Level 5: Max 3
+                                    * Spend to trigger minor healing bursts, apply buffs, or grow temporary armor plates.
+________________
+
+
+🔸 LEVEL 1
+Starting Features:
+                                    * 2 Tier 1 Skills:
+                                    * Verdant Barrier – 3 AP. Create a 1 HP shield on you or an ally. If the shield breaks this round, trigger a 1 HP heal and gain +1 Bloom.
+                                    * Cordium Pulse – 2 AP. Heal a nearby ally (or yourself) for 1d6 HP. If the target is under 50% HP, gain +1 Bloom.
+                                    * Reaction:
+                                    * Regrowth Brace – On Perfect Parry, restore 1 HP to yourself and gain +1 Bloom.
+Playstyle at Lv 1:
+Cordium Warden is a frontline healer, standing in harm’s way to bloom stronger. Shields and heals stack up as you get hit or protect others.
+________________
+
+
+🔸 LEVEL 2
+Unlock: Passive – Blooming Hide
+                                    * When you spend a Bloom, gain +1 temporary HP for the next 2 turns.
+                                    * If you spend 2+ Bloom in a single round, allies within 1 tile also gain 1 temp HP.
+You heal and shield passively by engaging your core mechanic.
+________________
+
+
+🔸 LEVEL 3
+Unlock: +1 Tier 1 Skill
+                                    * Thornroot Vines – 3 AP. Heal yourself for 1d6. Any enemy adjacent to you must roll STR or take 1 Bleed.
+                                    * Spend 1 Bloom to also apply Weaken (–1 damage) to one of them.
+________________
+
+
+🔸 LEVEL 4
+Unlock: Support Synergy – Living Circle
+                                    * While within 2 tiles of 2 or more allies, you gain +1 to your Reaction rolls and +1 to healing rolls (including Cordium Pulse).
+Encourages sticking close to the team like a living shield.
+________________
+
+
+🔸 LEVEL 5
+Unlocks:
+                                    * Equip Limit Increased → May now equip 3 Tier 1 Skills
+                                    * Cordium Bloom Cap Raised to 3
+Optional Upgrade Pick (Choose 1):
+                                    * Cordium Overgrowth – Spend 3 Bloom to cause allies within 2 tiles to heal for 1d4 HP and gain +1 to their next defense roll.
+                                    * Flourish Armor – When at max Bloom, your next shield grants +1 bonus HP and prevents status effects for 1 turn.
+Stoneveil [HEALING TANK]
+Theme: A sentinel of soil and spirit who heals through connection to the land. Cleanses ailments, shields allies, and roots down like a sacred monolith.
+Resource Mechanic: Veil Points
+                                    * Gain 1 Veil Point when:
+                                    * You cleanse a debuff from yourself or an ally
+                                    * You cast a shield or healing spell on someone below half HP
+                                    * You end your turn without moving
+Veil Cap:
+                                    * Level 1: Max 2
+                                    * Level 5: Max 3
+                                    * Spend to heal, cleanse, root enemies, or project protective auras.
+________________
+
+
+🔸 LEVEL 1
+Starting Features:
+                                    * 2 Tier 1 Skills:
+                                    * Earthen Mend – 2 AP. Heal self or ally for 1d6 HP. Spend 1 Veil Point to also cleanse 1 status effect.
+                                    * Stoneveil Guard – 3 AP. Shield self or ally for 1 HP. While active, the target cannot be pushed, pulled, or knocked down.
+                                    * Reaction:
+                                    * Stillroot Parry – On a Perfect Parry, gain +1 Veil Point and you may cleanse 1 minor effect (Burn, Bleed, Poison).
+Playstyle at Lv 1:
+Stoneveil is a cleansing anchor — you’re a slow-moving tank that keeps people safe by removing status effects and keeping your party stable under pressure.
+________________
+
+
+🔸 LEVEL 2
+Unlock: Passive – Grounded Spirit
+                                    * If you don’t move on your turn, gain +1 to Parry and +1 to healing rolls until your next turn.
+Encourages holding your ground to get stronger.
+________________
+
+
+🔸 LEVEL 3
+Unlock: +1 Tier 1 Skill
+                                    * Rootbind Wave – 3 AP. Targets enemies in a 2-tile cone. They must roll DEX or be Rooted (immobile for 1 round).
+                                    * Spend 1 Veil Point to also Weaken them (–1 damage).
+________________
+
+
+🔸 LEVEL 4
+Unlock: Support Passive – Sacred Aura: Clarity
+                                    * At the start of each round, you and all allies within 2 tiles gain +1 to resist the first status effect they would receive.
+Cleansing and prevention now ripple out around you.
+________________
+
+
+🔸 LEVEL 5
+Unlocks:
+                                    * Equip Limit Increased → May now equip 3 Tier 1 Skills
+                                    * Veil Cap Raised to 3
+Optional Upgrade Pick (Choose 1):
+                                    * Stonepulse Rebirth – Spend 3 Veil Points to cleanse all allies within 2 tiles, then heal them for 1d4 HP.
+                                    * Earthen Lockdown – While at max Veil, any enemy that moves within 1 tile of you must roll STR or become Rooted.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SUPPORT CLASSES
+
+
+ Spellweft Oracle (Arcane Buffer – Magic Support)
+“Your fate was always to survive. I just reminded the stars.”
+🔓 Unlocks by Level:
+                                    * Level 1:
+                                    * 🪄 Signature Skill: Arcane Sigil – Heal 1d6 and grant +1 to next attack roll.
+                                    * 🎴 Resource: Weave Points (Max 2) – Gain 1 when healing/buffing 2+ allies.
+                                    * 🎯 Start with 2 Tier 1 skills (from Support list).
+                                    * Level 3:
+                                    * 🎯 +1 Tier 1 Skill
+                                    * 🌀 Weave Synergy: You may now store up to 3 Weave Points.
+                                    * Level 5:
+                                    * 🎯 +1 Tier 1 Skill (Total: 3 Tier 1s + Signature)
+                                    * 🧠 Max Weave Points increases to 4.
+                                    * 💡 Basic Combo Unlocked: If you spend 2 Weave Points in a turn, grant an ally +1 AP.
+________________
+
+
+🌿 2. Mythroot Channeler (Terrain Cleanser – Magic Support)
+“The forest remembers… and it shelters.”
+🔓 Unlocks by Level:
+                                    * Level 1:
+                                    * 🪄 Signature Skill: Verdant Rebirth – Heal 1d6 and cleanse 1 negative condition.
+                                    * 🌱 Resource: Bloom Marks (Max 2) – Gain 1 when healing or cleansing in terrain.
+                                    * 🎯 Start with 2 Tier 1 skills.
+                                    * Level 3:
+                                    * 🎯 +1 Tier 1 Skill
+                                    * 🌿 Bloom Synergy: When cleansing a terrain-based status (Mud, Fog), gain +1 Bloom.
+                                    * Level 5:
+                                    * 🎯 +1 Tier 1 Skill (Total: 3 Tier 1s + Signature)
+                                    * 🌼 Bloom Marks cap increases to 3.
+                                    * 🧩 Minor Trait: Once per encounter, you may move a healing patch 1 tile for free.
+________________
+
+
+🎵 3. Pulseborn Vibe (Rhythmic Healer – Superpowered Support)
+“The beat lifts more than your spirits.”
+🔓 Unlocks by Level:
+                                    * Level 1:
+                                    * 🪄 Signature Skill: Soundburst Wave – Heal 1d6 in cone, grant +1 movement.
+                                    * 🎚️ Resource: Vibe Charges (Max 2) – Gain 1 when 2+ allies are hit with one skill.
+                                    * 🎯 Start with 2 Tier 1 skills.
+                                    * Level 3:
+                                    * 🎯 +1 Tier 1 Skill
+                                    * 🔁 Sound Combo: If allies use movement after your skill, refund 1 AP to one of them.
+                                    * Level 5:
+                                    * 🎯 +1 Tier 1 Skill (Total: 3 Tier 1s + Signature)
+                                    * 🎶 Vibe Charges cap increases to 4.
+                                    * 🎧 Beat Drop Passive: +1 Vibe Charge if an ally lands a crit after your buff.
+________________
+
+
+☀️ 4. Lightspire Guardian (Shield-Cleanser – Superpowered Support)
+“No shadow survives the second sunrise.”
+🔓 Unlocks by Level:
+                                    * Level 1:
+                                    * 🪄 Signature Skill: Solar Screen – Heal 1d4 and shield for 3 HP.
+                                    * 🔆 Resource: Radiant Cells (Max 2) – Gain 1 when shielding or preventing damage.
+                                    * 🎯 Start with 2 Tier 1 skills.
+                                    * Level 3:
+                                    * 🎯 +1 Tier 1 Skill
+                                    * 🔒 Radiant Reaction: When using Solar Screen as a reaction heal, restore 1 extra HP.
+                                    * Level 5:
+                                    * 🎯 +1 Tier 1 Skill (Total: 3 Tier 1s + Signature)
+                                    * ☀️ Max Radiant Cells increases to 4.
+                                    * ✨ Minor Passive: If an ally resists a status effect, gain +1 Radiant Cell instantly.
+________________
+
+
+🦾 5. Circuitmind Engineer (Ranged Medic – Tech Support)
+“I don’t heal with faith. I use firmware.”
+🔓 Unlocks by Level:
+                                    * Level 1:
+                                    * 🪄 Signature Skill: Auto-Suture Shot – Ranged heal 1d6. Target under 50% HP gets +1 AP.
+                                    * ⚙️ Resource: Pulse Nodes (Max 2) – Gain 1 when healing from range.
+                                    * 🎯 Start with 2 Tier 1 skills.
+                                    * Level 3:
+                                    * 🎯 +1 Tier 1 Skill
+                                    * 🤖 Upgrade Slot: Your next heal can be delivered through a Support Drone if deployed.
+                                    * Level 5:
+                                    * 🎯 +1 Tier 1 Skill (Total: 3 Tier 1s + Signature)
+                                    * 🔋 Max Pulse Nodes increases to 3.
+                                    * 🛠️ Drone Battery Buff: Drone heals now grant +1 to reaction rolls.
+6. Nanoforge Tactician (Debuff Cleaner – Tech Support)
+“Your systems are failing. Let me rewrite them.”
+🔓 Unlocks by Level:
+                                    * Level 1:
+                                    * 🪄 Signature Skill: Nano Surge – Heal 1d4 and cleanse a minor debuff.
+                                    * 🔩 Resource: Forge Points (Max 2) – Gain 1 when cleansing or boosting AP.
+                                    * 🎯 Start with 2 Tier 1 skills.
+                                    * Level 3:
+                                    * 🎯 +1 Tier 1 Skill
+                                    * 🧲 Field Sync: If you cleanse 2+ statuses in a round, gain +1 Forge Point instantly.
+                                    * Level 5:
+                                    * 🎯 +1 Tier 1 Skill (Total: 3 Tier 1s + Signature)
+                                    * 🛠️ Forge Point cap increases to 4.
+                                    * 🔧 Minor Trait: Remove 1 terrain hazard within 2 tiles as a bonus action (1/encounter).
+________________
+
+
+🔥 7. Wyrmbrand Hymnist (Draconic DPS-Buffer – Support Role Only)
+“Your blade is the choir, and I am the song.”
+🔓 Unlocks by Level:
+                                    * Level 1:
+                                    * 🪄 Signature Skill: Burning Hymn – 1d4 fire to enemy; next ally gains +2 damage.
+                                    * 🎵 Resource: Voice Cinders (Max 2) – Gain 1 when ally hits a marked target.
+                                    * 🎯 Start with 2 Tier 1 skills.
+                                    * Level 3:
+                                    * 🎯 +1 Tier 1 Skill
+                                    * 🔥 Bonus: If your marked enemy is defeated, gain 1 extra Voice Cinder.
+                                    * Level 5:
+                                    * 🎯 +1 Tier 1 Skill (Total: 3 Tier 1s + Signature)
+                                    * 🎼 Voice Cinder cap increases to 4.
+                                    * 🎤 Battle Anthem: You may mark 2 enemies per combat instead of 1.
+________________
+
+
+💉 8. Veinweaver Duelist (Lifesteal DPS-Support – Support Role Only)
+“Your pain, my polish.”
+🔓 Unlocks by Level:
+                                    * Level 1:
+                                    * 🪄 Signature Skill: Fangline Dash – Dash 2 tiles, deal 1d6, heal nearest ally 1d4.
+                                    * 🩸 Resource: Hemocodes (Max 2) – Gain 1 per hybrid damage/heal hit.
+                                    * 🎯 Start with 2 Tier 1 skills.
+                                    * Level 3:
+                                    * 🎯 +1 Tier 1 Skill
+                                    * 🧛 Passive: If you heal an ally who’s bleeding, you restore +1 HP to yourself.
+                                    * Level 5:
+                                    * 🎯 +1 Tier 1 Skill (Total: 3 Tier 1s + Signature)
+                                    * 🧬 Hemocode cap increases to 4.
+                                    * 💉 Trait: Hemocodes may be spent to heal 2 allies for 1 HP each instead of using a skill.
+________________
+
+
+🕊️ 9. Gracecaller (Pure Burst Healer – Support Only)
+“The world breaks you… and I collect the pieces.”
+🔓 Unlocks by Level:
+                                    * Level 1:
+                                    * 🪄 Signature Skill: Grace Surge – Heal 2d4 and remove Burn/Bleed.
+                                    * ✨ Resource: Sanctity Points (Max 2) – Gain 1 per 6 HP healed.
+                                    * 🎯 Start with 2 Tier 1 skills.
+                                    * Level 3:
+                                    * 🎯 +1 Tier 1 Skill
+                                    * 💫 Grace Reaction: If an ally drops to 1 HP, gain +1 Sanctity immediately.
+                                    * Level 5:
+                                    * 🎯 +1 Tier 1 Skill (Total: 3 Tier 1s + Signature)
+                                    * 🌟 Sanctity Points cap increases to 3.
+                                    * 🛡️ Once per combat: If an ally is under 25% HP, you may heal them for +1d4 for free (as a bonus action).
+________________
+
+
+💠 10. Mender Ascendant (Regen Specialist – Support Only)
+“You will not fall today. Not while I’m still standing.”
+🔓 Unlocks by Level:
+                                    * Level 1:
+                                    * 🪄 Signature Skill: Anchor Flow – Apply Regen (1d4) for 3 rounds.
+                                    * 🌀 Resource: Anchor Points (Max 2) – Gain 1 per active Regen or status save.
+                                    * 🎯 Start with 2 Tier 1 skills.
+                                    * Level 3:
+                                    * 🎯 +1 Tier 1 Skill
+                                    * 🩹 Synergy Passive: If you have 2+ regens active, all regen effects heal +1 extra this round.
+                                    * Level 5:
+                                    * 🎯 +1 Tier 1 Skill (Total: 3 Tier 1s + Signature)
+                                    * 🪙 Anchor Point cap increases to 4.
+                                    * 💠 Trait: At start of combat, you may pre-cast Regen on one ally (1/encounter).
+
+
+
+
+
+
+DPS CLASSES
+
+
+
+
+
+
+MAGIC DPS
+1. Spellweaver [Arcane DPS]
+                                    * Theme: Wields ancient spell glyphs to chain explosive magic through precision.
+                                    * Mechanic: Arcane Seals – Built by casting; 3+ Seals cause detonation.
+                                    * Perfection: Gained by multi-target hits, Seal detonations, and casting precision spells.
+Level Progression:
+                                    * Lv 1: Starts with Mystic Pulse and Glyph Cascade
+                                    * Lv 2: Arcane Seal cap = 2
+                                    * Lv 3: Gains Runic Breaker
+                                    * Lv 4: Passive – +1 GP if a Seal crits during detonation
+                                    * Lv 5: Arcane Seal cap = 3; Seals now explode in a 1-tile AoE
+________________
+
+
+2. Blightbrand [Dark Magic DPS]
+                                    * Theme: Spreads rot and decay through Corruption-infused strikes.
+                                    * Mechanic: Corruption Gauge – Apply Corruption stacks (3 = Detonation).
+                                    * Perfection: Gained by stacking Corruption, critting with DoTs, or plague bursts.
+Level Progression:
+                                    * Lv 1: Starts with Hex Slash and Wither Shot
+                                    * Lv 2: May apply 2 Corruption stacks/round
+                                    * Lv 3: Gains Decay Lure
+                                    * Lv 4: Rot Spark – On crit, spread DoT to nearby enemy (1x/fight)
+                                    * Lv 5: Corruption detonations now affect 1-tile AoE
+________________
+
+
+⚙️ TECH DPS
+3. Shockframe [Gadget DPS]
+                                    * Theme: Wields a high-voltage exosuit; builds charge to overload targets.
+                                    * Mechanic: Voltage Core – Gains Voltage from attacks; discharges at max.
+                                    * Perfection: Gained from hitting multiple targets, discharging Voltage, chaining tech hits.
+Level Progression:
+                                    * Lv 1: Starts with Volt Slash and Pulse Grenade
+                                    * Lv 2: Voltage cap = 50
+                                    * Lv 3: Gains Flash Arc
+                                    * Lv 4: Passive – +50% Voltage gain on multi-target hit
+                                    * Lv 5: Voltage cap = 100; Overload grants +2 AP next round
+________________
+
+
+4. Hyperlink [Digital Striker]
+                                    * Theme: Uses speed and data-hopping to chain-hit targets through tech flicker.
+                                    * Mechanic: Lag Stack – Marked enemies bounce damage and lower reaction speed.
+                                    * Perfection: Gained by hitting Marked targets, bouncing damage, teleport strikes.
+Level Progression:
+                                    * Lv 1: Starts with Glitch Jab and Packet Burst
+                                    * Lv 2: Can Mark 1 target with Lag per round
+                                    * Lv 3: Gains Frame Skip (teleport → strike)
+                                    * Lv 4: Passive – +1 AP on hit vs Marked enemy
+                                    * Lv 5: Crit vs Marked enemy refunds 1 AP
+________________
+
+
+🦸 SUPERHERO DPS
+5. Novaheart [Kinetic DPS]
+                                    * Theme: Channels momentum from strikes and hits taken to unleash explosive force.
+                                    * Mechanic: Impact Momentum – Builds from taking/giving hits, fuels finishers.
+                                    * Perfection: Gained by surviving hits, using Impact skills, chaining brawls.
+Level Progression:
+                                    * Lv 1: Starts with Rebound Fist and Momentum Dash
+                                    * Lv 2: Gains “Absorb Impact” – +1 Momentum when hit for 10+ dmg
+                                    * Lv 3: Adds Burst Ring (Area push)
+                                    * Lv 4: Passive – +1 AP when Momentum skill lands
+                                    * Lv 5: 3 Momentum triggers Bonus Action for attack
+________________
+
+
+6. Starlash [Cosmic DPS]
+                                    * Theme: Alternates between Solar (crit) and Lunar (evasion) states to control tempo.
+                                    * Mechanic: Celestial Flux – Gain power by switching stances and landing aligned skills.
+                                    * Perfection: Gained by syncing skills to Solar/Lunar states, crits in stance.
+Level Progression:
+                                    * Lv 1: Sunpierce Lance and Crescent Flare
+                                    * Lv 2: Choose Solar (crit buff) or Lunar (Dodge buff)
+                                    * Lv 3: Gains Supernova Jet (dash + burn line)
+                                    * Lv 4: Passive – +1 Crit Range (Solar), +1 Dodge (Lunar)
+                                    * Lv 5: Switching stances now grants +1 GP
+________________
+
+
+⚔️ D&D STYLE DPS
+7. Wyrmblade [Dragon Knight]
+                                    * Theme: Fuses melee with elemental breath and dragon fury.
+                                    * Mechanic: Draconic Charge – Stored via melee/elements; fuels AoEs and combos.
+                                    * Perfection: Gained via elemental combos, Breath weapon kills, crits on buffed strikes.
+Level Progression:
+                                    * Lv 1: Cinder Slash and Storm Rend
+                                    * Lv 2: Charge cap = 2; each = +1 elemental damage
+                                    * Lv 3: Gains Scale Breaker
+                                    * Lv 4: Passive – Spend 2 Charges = +1 Crit Range this turn
+                                    * Lv 5: Unlocks 1-use Breath Weapon as Bonus Action
+________________
+
+
+8. Shadowclad [Stealth Duelist]
+                                    * Theme: Fast, reactive duelist that strikes from shadows for lethal hits.
+                                    * Mechanic: Backlash Meter – Builds from flanks, stealth, kills.
+                                    * Perfection: Gained on crits from behind, flanking strikes, stealth kills.
+Level Progression:
+                                    * Lv 1: Veiled Cut and Cloakstep
+                                    * Lv 2: +1 GP when critting from stealth
+                                    * Lv 3: Dagger Fan (short AoE)
+                                    * Lv 4: Kill from behind refunds 1 AP
+                                    * Lv 5: First strike from stealth ignores Dodge
+________________
+
+
+🧩 SUPPORT-STYLE DPS
+9. Threadpiercer [Buff DPS Hybrid]
+                                    * Theme: Strikes with magical thread constructs that buff allies mid-fight.
+                                    * Mechanic: Weave Points – Earned by striking shared targets or supporting.
+                                    * Perfection: Gained by hitting with ally synergy, AP boosting, team combos.
+Level Progression:
+                                    * Lv 1: Spiral Pierce and Warding Thrust
+                                    * Lv 2: Choose bonus: +1 AP or +2 dmg to nearby ally
+                                    * Lv 3: Crossweave Lash (hit + 2 HP heal to ally)
+                                    * Lv 4: Passive – Matching ally’s target = double bonus
+                                    * Lv 5: 1x/fight: grant ally +1 Reaction
+________________
+
+
+10. Mirrorshard [Illusion DPS]
+                                    * Theme: Illusions and mirror clones distort enemy judgment while slicing through.
+                                    * Mechanic: Fracture Mirror – Debuff that stacks to disorient or blind enemies.
+                                    * Perfection: Gained by Fracture procs, crits, dodging illusions.
+Level Progression:
+                                    * Lv 1: Glass Edge and Fade Blink
+                                    * Lv 2: Fractures last 2 rounds
+                                    * Lv 3: Mirrorburst – AoE illusion blast
+                                    * Lv 4: Passive – Fractured enemy = +1 Dodge
+                                    * Lv 5: Hit on Fractured target restores 1 AP (1x/round)
+________________
+
+
+🗡️ ASSASSIN-STYLE DPS
+11. Bloodveil [Critical Slayer]
+                                    * Theme: Stalks enemies, builds power through crits and bloodletting.
+                                    * Mechanic: Crimson Drive – Gained from crits/kills; empowers brutal finishing.
+                                    * Perfection: Gained on kill or crit. Resets each encounter.
+Level Progression:
+                                    * Lv 1: Redline Rush and Pierce Fang
+                                    * Lv 2: Crit = +1 GP
+                                    * Lv 3: Stainstep – Teleport on kill
+                                    * Lv 4: Passive – Crit Range +1 when Drive = 3+
+                                    * Lv 5: Crit kill refreshes Bonus Action
+________________
+
+
+12. Silentshade [Ghost Executioner]
+                                    * Theme: Marks enemies for death, evades, and ends them with surgical precision.
+                                    * Mechanic: Shadow Echo – Charge built by stealth attacks, marking.
+                                    * Perfection: Gained via stealth crits, marked kills, dodging from cover.
+Level Progression:
+                                    * Lv 1: Fade Slice and Phantom Chain
+                                    * Lv 2: Shadow Echo – Dodge triggers after Silent Target kill
+                                    * Lv 3: Cut Vein – Bleed + Silence
+                                    * Lv 4: Passive – Hidden hits apply -1 to enemy next attack
+                                    * Lv 5: Mark 2 Silent Targets per battle
+RACES
+CLASSIC FANTASY RACES
+Rooted in the mythic age, tied to nature, ruins, or the first spell.
+1. Elf
+                                    * Trait: +1 DEX, +1 WIS
+                                    * Passive: Arcane Affinity – +1 to INT-based magic skills; immune to Sleep.
+                                    * Flavor: Elves are fading mystics—some embrace magic, others blend with supertech.
+2. Dwarf
+                                    * Trait: +1 CON, +1 INT
+                                    * Passive: Iron Endurance – Once per combat, reduce incoming damage by 5.
+                                    * Flavor: Proud, stubborn. Some forge tech from runes; others anchor ancient bunkers.
+3. Orc
+                                    * Trait: +1 STR, +1 CON
+                                    * Passive: Warborn Fury – After taking a critical hit, gain +1 AP (once/combat).
+                                    * Flavor: Frontline bruisers of forgotten wars. Many now seek redemption or glory.
+4. Halfling
+                                    * Trait: +1 DEX, +1 CHA
+                                    * Passive: Unseen Luck – Once per session, reroll a failed d20.
+                                    * Flavor: Light on their feet and sharp with their tongues—tricksters of all trades.
+________________
+
+
+🔬 SUPERHUMAN RACES
+Born of warps, mutation, or interdimensional tears. New bloodlines rise.
+5. Nova-Born
+                                    * Trait: +1 INT, +1 CHA
+                                    * Passive: Surge Core – Start battle with 1 AP or 1 Perfection stack.
+                                    * Flavor: Glowing veins, volatile power. Born from the last gene crisis.
+6. Gravemind
+                                    * Trait: +1 WIS, +1 CON
+                                    * Passive: Psychic Residue – +1 to resist mental and illusion effects.
+                                    * Flavor: Once exposed to the “Bleed Realms,” they now see what others can’t.
+7. Aetherkin
+                                    * Trait: +1 INT, +1 WIS
+                                    * Passive: Dualborn – Once per session, reroll a magic OR power skill roll.
+                                    * Flavor: Descendants of the ancient Aetherborn. They carry echoes of lost arcana.
+8. Cindervault
+                                    * Trait: +1 STR, +1 INT
+                                    * Passive: Overheat Drive – At 0 AP, your next VBA deals +1d4 damage.
+                                    * Flavor: Survivors of combustion labs or war engines. Always on edge.
+________________
+
+
+🧬 HUMAN & VARIANTS
+Most common, most versatile—and sometimes, the most blessed… or cursed.
+9. Human (Standard)
+                                    * Trait: +1 to any two stats
+                                    * Passive: Versatile Start – Gain +1 extra skill at character creation.
+                                    * Flavor: No race adapts faster. A blank canvas—ideal for destiny or disaster.
+10. Void-Touched Human
+                                    * Trait: +1 INT, +1 CHA
+                                    * Passive: Darklink Memory – On hit, once per session, steal 1 AP from a target.
+                                    * Flavor: Something followed their bloodline from another world.
+11. Gene-Spliced Human
+                                    * Trait: +1 STR, +1 DEX
+                                    * Passive: Geneboost Core – Start battle with +1 Perfection stack.
+                                    * Flavor: Born of steel and sequence. Ideal for operatives or apex builds.
+12. Sanctified Human
+                                    * Trait: +1 CHA, +1 WIS
+                                    * Passive: Grace Pulse – Once per session, cleanse 1 debuff from ally or self.
+                                    * Flavor: Touched by a god's hand—or descended from one.
+________________
+
+
+🧪 Optional Rule: Ancestry Blending
+With GM approval, players may mix 1 Trait and 1 Passive from two different races (e.g., Orc + Human) to reflect divine parentage, magical bloodlines, or experimental origins. These hybrids may gain unique flaws or bonus roleplay hooks.
+DEMI-GOD RACES
+“Their blood sings with power—but they are still bound by death. Born of divinity, tempered by mortality.”
+These are the children of gods and mortals, created from direct unions, miracles, or divine experiments. Unlike full gods, they can be wounded, broken, or even slain — but their presence on the battlefield is unmistakable.
+________________
+
+
+13. Solarborn (Child of Light or Celestial Gods)
+                                    * Trait: +1 CHA, +1 DEX
+                                    * Passive: Radiant Pulse – Once per combat, emit a blinding flash: all nearby enemies suffer -2 to hit next turn.
+                                    * Flavor: Glorious to behold, these beings shine like living stars. Many serve as champions or wandering saints.
+________________
+
+
+14. Stormblood (Child of War or Sky Gods)
+                                    * Trait: +1 STR, +1 CON
+                                    * Passive: Tempest Fury – After taking damage, your next skill gains +1d6 lightning damage (once/combat).
+                                    * Flavor: Thunder veins and booming hearts—these warriors are nature’s wrath given form.
+________________
+
+
+15. Umbrakin (Child of Death or Shadow Gods)
+                                    * Trait: +1 WIS, +1 INT
+                                    * Passive: Shadow Walk – Once per session, teleport to a shadow within 20 ft (as a Bonus Action).
+                                    * Flavor: Death never quite touches them. Some are feared as omens, others revered as saints of dusk.
+________________
+
+
+16. Astral-Touched (Child of Dream or Space Gods)
+                                    * Trait: +1 INT, +1 CHA
+                                    * Passive: Mind Span – Gain +1 to all checks against mind control, illusions, and time effects.
+                                    * Flavor: Their thoughts stretch across timelines. They dream in constellations, and some claim to see fate.
+________________
+
+
+17. Titanblood (Child of Primordial or Earth Gods)
+                                    * Trait: +1 STR, +1 WIS
+                                    * Passive: Stoneform Resilience – Once per session, reduce any incoming damage by half.
+                                    * Flavor: Colossal bloodlines slumber within. Some are born as walking mountains—stoic, quiet, invincible.
+________________
+
+
+18. Phoenix-Born (Child of Flame or Rebirth Gods)
+                                    * Trait: +1 DEX, +1 CHA
+                                    * Passive: Ash Rebirth – The first time you fall to 0 HP, remain at 1 HP instead (once per long rest).
+                                    * Flavor: Marked by fire and rebirth, these demi-gods are reborn from their own ashes—often literally.
+________________
+
+
+🧬 Notes on Demi-God Races:
+                                    * Narrative Weight: Demi-god PCs are rare and draw attention in-world. GMs are encouraged to tie their origin into divine politics or prophecy.
+                                    * Balance Clause: Despite their power, demi-gods are not immortal, and must follow standard death/damage rules unless stated otherwise.
+                                    * Role Synergy: These races often synergize with Support (Phoenix-Born), Tank (Titanblood), or DPS (Stormblood) roles.
+TECH-INTEGRATED RACES
+“Where flesh ends, circuitry begins. These beings blur the line between soul and software.”
+Born in labs, forged on warfronts, or rebuilt after catastrophe — these beings embody the technological pinnacle of humanity’s survival instinct.
+________________
+
+
+19. Synthborn (Fully Synthetic Beings – Androids, Constructs, AI Shells)
+                                    * Trait: +1 INT, +1 CON
+                                    * Passive: Hardwired Focus – Immune to sleep, poison, and mind control unless the source is magical.
+                                    * Flavor: Artificial minds with evolving personalities. Some are remnants of past wars, others were built yesterday.
+________________
+
+
+20. Cybrix (Cyborg-Human Hybrids with Full System Integration)
+                                    * Trait: +1 STR, +1 INT
+                                    * Passive: Auto-Recalibrate – Once per combat, reroll any failed Reaction (Dodge, Parry, Jump).
+                                    * Flavor: Fused with machinery at birth or rebuilt after trauma. Cold logic meets ruthless efficiency.
+________________
+
+
+21. Nano-Blooded (Humans Enhanced with Self-Repairing Nanotech)
+                                    * Trait: +1 DEX, +1 WIS
+                                    * Passive: Nanite Surge – Once per session, restore 5 HP or cleanse 1 debuff from self.
+                                    * Flavor: Their blood glitters. Born from biotech labs or viral upgrades, they heal faster than most.
+________________
+
+
+22. Mechari (Armor-Bound Pilots or Sentient Mechs in Human Form)
+                                    * Trait: +1 CON, +1 STR
+                                    * Passive: Iron Shell – Gain +1 to all Parry checks against physical attacks.
+                                    * Flavor: Wielders of modular suits or biomech cores. Sometimes, the pilot is the armor.
+________________
+
+
+23. Glitchspawn (Digitized Beings or Data-Fractured Entities)
+                                    * Trait: +1 INT, +1 CHA
+                                    * Passive: Phase Flicker – Once per combat, avoid all damage from a single attack (as a Reaction).
+                                    * Flavor: Fragments of a failed simulation, or survivors of digital death. Glitchy, unstable, and feared.
+________________
+
+
+24. Tech-Wright Human (Humans Enhanced via Tech Rites, Augments, or Implants)
+                                    * Trait: +1 INT, +1 of choice
+                                    * Passive: Overclock Engine – When you miss a skill, gain +1 AP next turn.
+                                    * Flavor: Tinkerers, cyber-monks, modders. Their faith is in code, and their heart runs on cores.
+
+
+
+
+
+
+BACKROUNDS
+
+
+
+
+Backgrounds in Arcanum Primus
+"Power may be shaped by choice — but origin leaves its mark."
+Players choose one background at character creation. It provides:
+                                    * A light mechanical bonus (e.g., +1 stat, extra skill, 1-use effect)
+                                    * A flavor hook for roleplay
+                                    * Thematic synergy with powers, archetypes, or equipment
+________________
+
+
+💥 Superhero Backgrounds
+1. Born Different
+You manifested powers at birth — glowing eyes, floating toys, chaos in your crib.
+                                    * 🟪 Bonus: +1 to CHA or DEX
+                                    * 🎭 RP Hook: You’ve always stood out. It’s not a secret.
+2. The Trigger Event
+You survived a trauma — explosion, collapse, betrayal — and emerged with powers.
+                                    * 🟪 Bonus: +1 to CON
+                                    * 🎭 RP Hook: Do you fear what you’ve become… or crave more?
+3. Government Project
+You were altered by a lab, serum, or special program.
+                                    * 🟪 Bonus: Gain 1 Tech-tagged passive skill at Level 1
+                                    * 🎭 RP Hook: You're always looking over your shoulder.
+________________
+
+
+🧝 Classic Fantasy Backgrounds
+4. Noble Bloodline (Elf, Dwarf, etc.)
+You hail from an ancient race — long-lived, proud, and storied.
+                                    * 🟪 Bonus: +1 to WIS or INT
+                                    * 🎭 RP Hook: You’re a legacy of something forgotten… or forbidden.
+5. Wanderer or Orphan
+No home. No kin. Only the road.
+                                    * 🟪 Bonus: Gain +1 AP once per battle when you fall below 50% HP
+                                    * 🎭 RP Hook: You don’t trust easily, but fight hard for those you choose.
+6. Druidic Touched
+Nature granted you insight — maybe a spirit or old forest chose you.
+                                    * 🟪 Bonus: Start with 1 “Wild” terrain resistance
+                                    * 🎭 RP Hook: You speak to things others can’t.
+________________
+
+
+🪄 Magical Lineage Backgrounds
+7. Arcane Heir
+Your ancestors wielded magic when the world still sang.
+                                    * 🟪 Bonus: +1 to INT
+                                    * 🎭 RP Hook: You feel echoes of spells in your dreams.
+8. Pactbound
+You formed a deal — willingly or not — with a magical force.
+                                    * 🟪 Bonus: 1 per long rest, reroll a failed spell-based skill
+                                    * 🎭 RP Hook: There’s a price. It hasn’t been paid yet.
+9. Reclaimed Sorcery
+You weren't born magical — you stole it back from ruins or relics.
+                                    * 🟪 Bonus: Gain a bonus +2 on your first INT-based skill roll per session
+                                    * 🎭 RP Hook: You earned this power with blood, sweat, or worse.
+________________
+
+
+🛸 Tech Origin Backgrounds
+10. CyTech Hybrid
+You were born with — or modified to use — advanced tech implants.
+                                    * 🟪 Bonus: +1 to DEX
+                                    * 🎭 RP Hook: You interface faster than others blink.
+11. Inventor’s Kid
+Your family built gadgets before you could walk.
+                                    * 🟪 Bonus: Start with 1 Tech gear at Tier 0 (e.g., scanner, grapple, etc.)
+                                    * 🎭 RP Hook: You see the world in blueprints.
+12. Datasplice
+You’re partially digital — a mind uploaded, or body grown.
+                                    * 🟪 Bonus: Immunity to “Charm” once per session
+                                    * 🎭 RP Hook: You're haunted by glitches… or memories.
+________________
+
+
+🧬 Divine & Demigod Backgrounds
+13. Demi-God
+One of your parents wasn’t mortal — and neither are you, not fully.
+                                    * 🟪 Bonus: +1 to STR or CHA
+                                    * 🎭 RP Hook: Mortals whisper your name. Gods know your scent.
+14. God-Touched Mortal
+A deity blessed (or cursed) you in youth.
+                                    * 🟪 Bonus: Once per session, delay death by 1 round
+                                    * 🎭 RP Hook: Something watches you — always.
+15. Realmwalker’s Child
+You were born in a realm between.
+                                    * 🟪 Bonus: Resistance to terrain effects from 1 type (choose: heat, cold, gravity, etc.)
+                                    * 🎭 RP Hook: Earth isn’t your only home.
+________________
+
+
+💰 Wealth & Influence Backgrounds
+16. Weathly
+Your family name opens doors.
+                                    * 🟪 Bonus: Start with 1 extra accessory or +1 CHA
+                                    * 🎭 RP Hook: you start the game with a hq
+17. Shadow Investor
+You stay low profile… but your wallet doesn’t.
+                                    * 🟪 Bonus: 1 extra loot roll per mission
+                                    * 🎭 RP Hook: Everyone owes you a favor. Or two.
+18. Fame-Born
+You're a former celebrity, streamer, or public hero.
+                                    * 🟪 Bonus: +1 to CHA and +2 to Persuasion checks against civilians
+                                    * 🎭 RP Hook: Cameras are always on. So are the lies.
+________________
+
+
+🎲 Wildcard Backgrounds
+19. Amnesiac
+You woke up with powers… and no memory.
+                                    * 🟪 Bonus: Gain 1 skill reroll token per session
+                                    * 🎭 RP Hook: The past is hunting you.
+20. Chosen by the World
+Something in fate marked you for greatness.
+                                    * 🟪 Bonus: First Gradient Point gain in session costs 1 less skill
+                                    * 🎭 RP Hook: The world shifts when you act — you just don’t know why.
