@@ -345,6 +345,15 @@ function App() {
           <CharacterSheet ref={sheetRef} character={selectedCharacter} />
         )}
       </div>
+
+      <button
+        onClick={() => {
+          localStorage.removeItem('token');
+          setIsAuth(false);
+        }}
+      >
+        Logout
+      </button>
     </div>
   );
 }
