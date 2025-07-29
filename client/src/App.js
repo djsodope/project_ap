@@ -1,6 +1,26 @@
 import React, { useState, useRef } from 'react';
 import { useReactToPrint } from 'react-to-print';
 import CharacterSheet from './CharacterSheet';
+import PointBuy from './components/PointBuy';
+
+const STANDARD_ARRAY = [15, 14, 13, 12, 10, 8];
+const STAT_KEYS = ['str', 'dex', 'con', 'int', 'wis', 'cha'];
+
+const CLASS_OPTIONS = [
+  { value: '', label: 'Select Class' },
+  { value: 'warrior', label: 'Warrior' },
+  { value: 'mage', label: 'Mage' },
+  { value: 'rogue', label: 'Rogue' },
+  { value: 'cleric', label: 'Cleric' },
+  // Add more classes as needed
+];
+
+const ROLE_OPTIONS = [
+  { value: '', label: 'Select Role' },
+  { value: 'dps', label: 'DPS' },
+  { value: 'tank', label: 'Tank' },
+  { value: 'support', label: 'Support' },
+];
 
 function App() {
   const [form, setForm] = useState({
@@ -34,6 +54,7 @@ function App() {
 
   const [characters, setCharacters] = useState([]);
   const [selectedCharacter, setSelectedCharacter] = useState(null);
+  const [statMethod, setStatMethod] = useState('pointbuy'); // 'pointbuy' or 'standard'
   const sheetRef = useRef();
 
   const handleChange = (e) => {
@@ -98,25 +119,158 @@ function App() {
     }, 100);
   };
 
+  // Move pointBuyCost here so you can use it for the Create button
+  const pointBuyCost = (score) => {
+    if (!score || isNaN(score)) return 0;
+    if (score < 8) return 0;
+    if (score === 8) return 0;
+    if (score === 9) return 1;
+    if (score === 10) return 2;
+    if (score === 11) return 3;
+    if (score === 12) return 4;
+    if (score === 13) return 5;
+    if (score === 14) return 7;
+    if (score === 15) return 9;
+    return Infinity;
+  };
+
+  // Handler for switching stat method
+  const handleStatMethodChange = (e) => {
+    const method = e.target.value;
+    setStatMethod(method);
+    if (method === 'standard') {
+      setForm(prev => ({
+        ...prev,
+        stats: STAT_KEYS.reduce((acc, key, i) => ({ ...acc, [key]: STANDARD_ARRAY[i] }), {})
+      }));
+    } else if (method === 'pointbuy') {
+      setForm(prev => ({
+        ...prev,
+        stats: STAT_KEYS.reduce((acc, key) => ({ ...acc, [key]: 8 }), {})
+      }));
+    } else if (method === 'rolling') {
+      setForm(prev => ({
+        ...prev,
+        stats: rollStats()
+      }));
+    }
+  };
+
+  function rollStat() {
+    const rolls = Array.from({ length: 4 }, () => Math.floor(Math.random() * 6) + 1);
+    rolls.sort((a, b) => b - a); // Descending
+    return rolls[0] + rolls[1] + rolls[2]; // Sum top 3
+  }
+
+  function rollStats() {
+    return STAT_KEYS.reduce((acc, key) => ({ ...acc, [key]: rollStat() }), {});
+  }
+
   return (
     <div style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
       <h1>Primus Character Creator</h1>
 
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginBottom: '1rem' }}>
         <input name="name" value={form.name} onChange={handleChange} placeholder="Name" />
-        <input name="role" value={form.role} onChange={handleChange} placeholder="Role" />
+        <select
+          name="role"
+          value={form.role}
+          onChange={handleChange}
+          style={{ minWidth: 120, padding: '0.25rem', marginRight: '0.5rem' }}
+        >
+          {ROLE_OPTIONS.map(opt => (
+            <option key={opt.value} value={opt.value}>{opt.label}</option>
+          ))}
+        </select>
         <input name="archetype" value={form.archetype} onChange={handleChange} placeholder="Archetype" />
         <input name="level" type="number" value={form.level} onChange={handleChange} placeholder="Level" />
 
-        {/* Optional: stat inputs */}
-        <input name="str" value={form.stats.str} onChange={handleChange} placeholder="STR" />
-        <input name="dex" value={form.stats.dex} onChange={handleChange} placeholder="DEX" />
-        <input name="con" value={form.stats.con} onChange={handleChange} placeholder="CON" />
-        <input name="int" value={form.stats.int} onChange={handleChange} placeholder="INT" />
-        <input name="wis" value={form.stats.wis} onChange={handleChange} placeholder="WIS" />
-        <input name="cha" value={form.stats.cha} onChange={handleChange} placeholder="CHA" />
+        <div style={{ marginBottom: '1rem' }}>
+          <label>
+            <input
+              type="radio"
+              value="pointbuy"
+              checked={statMethod === 'pointbuy'}
+              onChange={handleStatMethodChange}
+            />
+            Point Buy
+          </label>
+          <label style={{ marginLeft: '1rem' }}>
+            <input
+              type="radio"
+              value="standard"
+              checked={statMethod === 'standard'}
+              onChange={handleStatMethodChange}
+            />
+            Standard Array
+          </label>
+          <label style={{ marginLeft: '1rem' }}>
+            <input
+              type="radio"
+              value="rolling"
+              checked={statMethod === 'rolling'}
+              onChange={handleStatMethodChange}
+            />
+            Roll
+          </label>
+        </div>
 
-        <button onClick={submitCharacter}>Create</button>
+        {statMethod === 'pointbuy' ? (
+          <PointBuy
+            stats={form.stats}
+            onChange={(newStats) => setForm(prev => ({ ...prev, stats: newStats }))}
+            maxPoints={27}
+          />
+        ) : statMethod === 'standard' ? (
+          <div style={{ display: 'flex', gap: '0.5rem', margin: '0.5rem 0' }}>
+            {STAT_KEYS.map((stat, i) => (
+              <div key={stat}>
+                <label>{stat.toUpperCase()}</label>
+                <input
+                  type="number"
+                  value={form.stats[stat]}
+                  readOnly
+                  style={{ width: 40, textAlign: 'center', background: '#eee' }}
+                />
+              </div>
+            ))}
+            <div style={{ marginLeft: '1rem', fontWeight: 'bold' }}>
+              Standard Array: {STANDARD_ARRAY.join(', ')}
+            </div>
+          </div>
+        ) : (
+          <div style={{ display: 'flex', gap: '0.5rem', margin: '0.5rem 0', alignItems: 'center' }}>
+            {STAT_KEYS.map((stat) => (
+              <div key={stat}>
+                <label>{stat.toUpperCase()}</label>
+                <input
+                  type="number"
+                  value={form.stats[stat]}
+                  readOnly
+                  style={{ width: 40, textAlign: 'center', background: '#eee' }}
+                />
+              </div>
+            ))}
+            <button
+              type="button"
+              style={{ marginLeft: '1rem' }}
+              onClick={() => setForm(prev => ({ ...prev, stats: rollStats() }))}
+            >
+              Re-roll
+            </button>
+          </div>
+        )}
+
+        <button
+          onClick={submitCharacter}
+          disabled={
+            statMethod === 'pointbuy'
+              ? Object.values(form.stats).reduce((sum, val) => sum + pointBuyCost(Number(val)), 0) > 27
+              : false
+          }
+        >
+          Create
+        </button>
       </div>
 
       <h3>Saved Characters</h3>
