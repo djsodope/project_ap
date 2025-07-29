@@ -11,3 +11,13 @@ export const getCharacters = async () => {
   const response = await axios.get(API_URL);
   return response.data;
 };
+
+// server/controllers/characterController.js
+exports.getAll = async (req, res) => {
+  try {
+    const characters = await Character.find({});
+    res.json(characters);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+};

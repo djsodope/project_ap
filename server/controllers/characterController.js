@@ -12,9 +12,13 @@ exports.getOne = async (req, res) => {
 };
 
 exports.create = async (req, res) => {
-  const newChar = new Character(req.body);
-  await newChar.save();
-  res.status(201).json(newChar);
+  try {
+    const character = new Character(req.body);
+    await character.save();
+    res.status(201).json(character);
+  } catch (err) {
+    res.status(400).json({ error: err.message });
+  }
 };
 
 exports.update = async (req, res) => {
