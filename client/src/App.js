@@ -1,7 +1,8 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { useReactToPrint } from 'react-to-print';
 import CharacterSheet from './CharacterSheet';
 import PointBuy from './components/PointBuy';
+import { getCharacters, createCharacter } from './api/characterApi';
 
 const STANDARD_ARRAY = [15, 14, 13, 12, 10, 8];
 const STAT_KEYS = ['str', 'dex', 'con', 'int', 'wis', 'cha'];
@@ -57,6 +58,15 @@ function App() {
   const [statMethod, setStatMethod] = useState('pointbuy'); // 'pointbuy' or 'standard'
   const sheetRef = useRef();
 
+  useEffect(() => {
+    fetchCharacters();
+  }, []);
+
+  const fetchCharacters = async () => {
+    const data = await getCharacters();
+    setCharacters(data);
+  };
+
   const handleChange = (e) => {
     const { name, value } = e.target;
 
@@ -71,9 +81,11 @@ function App() {
     }
   };
 
-  const submitCharacter = () => {
-    const newChar = { ...form, _id: Date.now() };
-    setCharacters(prev => [...prev, newChar]);
+  const submitCharacter = async () => {
+    // Remove _id: Date.now() -- let MongoDB handle IDs
+    const newChar = { ...form };
+    await createCharacter(newChar);
+    fetchCharacters(); // Refresh list from backend
 
     // Reset form
     setForm({
