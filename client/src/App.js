@@ -3,6 +3,7 @@ import { useReactToPrint } from 'react-to-print';
 import CharacterSheet from './CharacterSheet';
 import PointBuy from './components/PointBuy';
 import { getCharacters, createCharacter } from './api/characterApi';
+import axios from 'axios';
 
 const STANDARD_ARRAY = [15, 14, 13, 12, 10, 8];
 const STAT_KEYS = ['str', 'dex', 'con', 'int', 'wis', 'cha'];
@@ -23,7 +24,47 @@ const ROLE_OPTIONS = [
   { value: 'support', label: 'Support' },
 ];
 
+function Auth({ onAuth }) {
+  const [mode, setMode] = useState('login'); // or 'register'
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setError('');
+    try {
+      const url = mode === 'login' ? '/api/auth/login' : '/api/auth/register';
+      const res = await axios.post(`http://localhost:5000${url}`, { username, password });
+      if (mode === 'login') {
+        localStorage.setItem('token', res.data.token);
+        onAuth();
+      } else {
+        setMode('login');
+      }
+    } catch (err) {
+      setError(err.response?.data?.error || 'Error');
+    }
+  };
+
+  return (
+    <div>
+      <h2>{mode === 'login' ? 'Login' : 'Register'}</h2>
+      <form onSubmit={handleSubmit}>
+        <input value={username} onChange={e => setUsername(e.target.value)} placeholder="Username" />
+        <input type="password" value={password} onChange={e => setPassword(e.target.value)} placeholder="Password" />
+        <button type="submit">{mode === 'login' ? 'Login' : 'Register'}</button>
+      </form>
+      <button onClick={() => setMode(mode === 'login' ? 'register' : 'login')}>
+        {mode === 'login' ? 'Need an account? Register' : 'Already have an account? Login'}
+      </button>
+      {error && <div style={{ color: 'red' }}>{error}</div>}
+    </div>
+  );
+}
+
 function App() {
+  const [isAuth, setIsAuth] = useState(!!localStorage.getItem('token'));
   const [form, setForm] = useState({
     name: '',
     level: 1,
@@ -59,8 +100,8 @@ function App() {
   const sheetRef = useRef();
 
   useEffect(() => {
-    fetchCharacters();
-  }, []);
+    if (isAuth) fetchCharacters();
+  }, [isAuth]);
 
   const fetchCharacters = async () => {
     const data = await getCharacters();
@@ -176,6 +217,10 @@ function App() {
 
   function rollStats() {
     return STAT_KEYS.reduce((acc, key) => ({ ...acc, [key]: rollStat() }), {});
+  }
+
+  if (!isAuth) {
+    return <Auth onAuth={() => setIsAuth(true)} />;
   }
 
   return (
