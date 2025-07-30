@@ -1,7 +1,7 @@
 // CharacterSheet.jsx
 import React, { forwardRef } from 'react';
 
-const CharacterSheet = forwardRef(({ character = {} }, ref) => {
+const CharacterSheet = forwardRef(({ character = {}, error }, ref) => {
   const {
     name = '',
     level = 1,
@@ -25,6 +25,8 @@ const CharacterSheet = forwardRef(({ character = {} }, ref) => {
   return (
     <div ref={ref} style={{ padding: '2rem', fontFamily: 'serif', maxWidth: '900px', margin: '0 auto' }}>
       <h1 style={{ textAlign: 'center' }}>{name || 'Unnamed'} <span>(Lv {level})</span></h1>
+
+      {error && <div style={{ color: 'red' }}>{error}</div>}
 
       <hr />
 
