@@ -5,7 +5,7 @@ require('dotenv').config(); // <-- Add this line
 
 const app = express();
 app.use(cors({
-  origin: '*', // Allow all origins for testing; restrict in production!
+  origin: ['http://localhost:3000', 'https://your-app.vercel.app'],
   credentials: true
 }));
 app.use(express.json());
