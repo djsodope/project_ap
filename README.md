@@ -1,65 +1,65 @@
-## 🚀 Deployment
+## 🚀 Getting Started
 
-### 1. Prepare for Production
+### 1. Install React Frontend
 
-- Make sure your backend (`server`) and frontend (`client`) are working locally.
-- In your backend, set environment variables for sensitive data (like `JWT_SECRET` and your MongoDB URI).
-
-### 2. Build the Frontend
-
-From the `client` folder, run:
-```
-npm run build
-```
-This creates a `build` folder with static files.
-
-### 3. Serve the Frontend with the Backend
-
-You can serve the React build from your Express backend:
-
-In `server/server.js`, add:
-```js
-const path = require('path');
-// ...other code...
-app.use(express.static(path.join(__dirname, '../client/build')));
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../client/build/index.html'));
-});
+Open a terminal and run:
+```bash
+npx create-react-app client
+cd client
+npm install axios
 ```
 
-### 4. Deploy to a Hosting Service
+### 2. Install MongoDB & MongoDB Compass
 
-- **Render, Heroku, Railway, or similar:**  
-  Push your code to GitHub, connect your repo to the service, and set up environment variables.
-- **VPS or your own server:**  
-  Install Node.js, copy your code, run `npm install` in both `client` and `server`, build the frontend, and start the backend with `node server.js` or a process manager like `pm2`.
+- Download and install [MongoDB Community Server](https://www.mongodb.com/try/download/community).
+- Download and install [MongoDB Compass](https://www.mongodb.com/try/download/compass) for a GUI to view your data.
 
-### 5. Set Environment Variables
+Start MongoDB on your computer (it usually runs automatically after install).
 
-Set these in your hosting dashboard or `.env` file:
-```
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-PORT=5000
+### 3. Install Backend Dependencies
+
+Open a new terminal in your project root (where `server` folder is) and run:
+```bash
+cd server
+npm install
 ```
 
-### 6. Start the Server
+### 4. Running the App
 
-On your server or in your hosting service, run:
-```
-node server.js
-```
-or (recommended for production):
-```
-npx pm2 start server.js
-```
+#### Option 1: Run Each Part Separately
+
+- **Start the backend:**  
+  In the `server` folder terminal:
+  ```bash
+  node server.js
+  ```
+  *(or use `npx nodemon server.js` if you have nodemon installed)*
+
+- **Start the frontend:**  
+  Open a new terminal, go to the `client` folder:
+  ```bash
+  npm start
+  ```
+
+#### Option 2: Run Both with One Command (using `concurrently`)
+
+- In your project root, install concurrently:
+  ```bash
+  npm install concurrently --save-dev
+  ```
+- Add this to your root `package.json` scripts:
+  ```json
+  "scripts": {
+    "dev": "concurrently \"cd server && node server.js\" \"cd client && npm start\""
+  }
+  ```
+- Then run:
+  ```bash
+  npm run dev
+  ```
 
 ---
 
-**Now your app is live!**  
-Users can register, log in, and manage their characters from anywhere.
+Now you can access the app at [http://localhost:3000](http://localhost:3000) and the backend at [http://localhost:5000](http://localhost:5000).
 
 ---
-
-**Tip:**  
-For more details, see the docs for your chosen hosting provider (Render, Heroku, Railway,
