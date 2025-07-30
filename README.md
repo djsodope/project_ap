@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # project_ap
 
+=======
+>>>>>>> 49a0b47f75e864dba2e39ddcdff956d829738003
 ## 🚀 Getting Started
 
 ### 1. Install React Frontend
@@ -64,4 +67,8 @@ npm install
 
 Now you can access the app at [http://localhost:3000](http://localhost:3000) and the backend at [http://localhost:5000](http://localhost:5000).
 
+<<<<<<< HEAD
 ---
+=======
+---
+>>>>>>> 49a0b47f75e864dba2e39ddcdff956d829738003
