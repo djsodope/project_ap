@@ -72,4 +72,3 @@ Now you can access the app at [http://localhost:3000](http://localhost:3000) and
    cp server/.env.example server/.env
    ```
 2. Edit `server/.env` and fill in your real MongoDB Atlas connection string for `MONGO_URI`.
-
