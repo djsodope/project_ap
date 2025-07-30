@@ -44,7 +44,11 @@ function Auth({ onAuth }) {
         setMode('login');
       }
     } catch (err) {
-      setError(err.response?.data?.error || 'Error');
+      if (err.response && err.response.data && err.response.data.message) {
+        setError(err.response.data.message); // Show backend error
+      } else {
+        setError('Registration failed. Please try again.');
+      }
     }
   };
 

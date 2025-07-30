@@ -6,6 +6,11 @@ const router = express.Router();
 const JWT_SECRET = 'your_secret_key'; // Use an environment variable in production
 
 router.post('/register', async (req, res) => {
+  const { username, password } = req.body;
+  const existingUser = await User.findOne({ username });
+  if (existingUser) {
+    return res.status(400).json({ message: 'Username already exists. Please choose a different name.' });
+  }
   try {
     const user = new User(req.body);
     await user.save();
