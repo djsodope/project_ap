@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-# project_ap
 
-=======
->>>>>>> 49a0b47f75e864dba2e39ddcdff956d829738003
->>>>>>> 2f65b266f7e9a526ce197b73666a4fd6ee01532f
 ## 🚀 Getting Started
 
 ### 1. Install React Frontend
@@ -81,13 +73,4 @@ Now you can access the app at [http://localhost:3000](http://localhost:3000) and
    cp server/.env.example server/.env
    ```
 2. Edit `server/.env` and fill in your real MongoDB Atlas connection string for `MONGO_URI`.
-=======
-<<<<<<< HEAD
----
-=======
----
->>>>>>> 49a0b47f75e864dba2e39ddcdff956d829738003
-=======
 
->>>>>>> 298ed46e4153a87f25fc5cd964ece87f97ffad0d
->>>>>>> 2f65b266f7e9a526ce197b73666a4fd6ee01532f
