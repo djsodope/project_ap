@@ -63,8 +63,7 @@ npm install
 
 Now you can access the app at [http://localhost:3000](http://localhost:3000) and the backend at [http://localhost:5000](http://localhost:5000).
 
-<<<<<<< HEAD
----
+
 
 ## Environment Setup
 
