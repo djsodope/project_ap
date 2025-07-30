@@ -34,8 +34,9 @@ function Auth({ onAuth }) {
     e.preventDefault();
     setError('');
     try {
+      const API_BASE = "https://project-ap-j937.onrender.com";
       const url = mode === 'login' ? '/api/auth/login' : '/api/auth/register';
-      const res = await axios.post(`http://localhost:5000${url}`, { username, password });
+      const res = await axios.post(`${API_BASE}${url}`, { username, password });
       if (mode === 'login') {
         localStorage.setItem('token', res.data.token);
         onAuth();

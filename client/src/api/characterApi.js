@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/characters';
+const API_URL = 'https://project-ap-j937.onrender.com/api/characters';
 
 const authHeader = () => {
   const token = localStorage.getItem('token');

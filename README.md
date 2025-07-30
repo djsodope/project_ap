@@ -1,4 +1,3 @@
-
 ## 🚀 Getting Started
 
 ### 1. Install React Frontend
@@ -72,3 +71,23 @@ Now you can access the app at [http://localhost:3000](http://localhost:3000) and
    cp server/.env.example server/.env
    ```
 2. Edit `server/.env` and fill in your real MongoDB Atlas connection string for `MONGO_URI`.
+
+## Deploying to Render
+
+When setting up your backend as a Web Service on [Render](https://render.com):
+
+- **Start Command:**  
+  ```
+  yarn start
+  ```
+  or, if you use npm:
+  ```
+  npm start
+  ```
+
+Make sure your `package.json` has a `start` script like:
+```json
+"scripts": {
+  "start": "node server.js"
+}
+```
