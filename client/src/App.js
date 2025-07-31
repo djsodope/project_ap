@@ -29,10 +29,12 @@ function Auth({ onAuth }) {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const [success, setSuccess] = useState(''); // <-- Add this line
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
+    setSuccess(''); // <-- Clear previous success
     try {
       const API_BASE = "https://project-ap-j937.onrender.com";
       const url = mode === 'login' ? '/api/auth/login' : '/api/auth/register';
@@ -41,6 +43,7 @@ function Auth({ onAuth }) {
         localStorage.setItem('token', res.data.token);
         onAuth();
       } else {
+        setSuccess('Success! User has been made. You can now log in.'); // <-- Show success
         setMode('login');
       }
     } catch (err) {
@@ -60,10 +63,11 @@ function Auth({ onAuth }) {
         <input type="password" value={password} onChange={e => setPassword(e.target.value)} placeholder="Password" />
         <button type="submit">{mode === 'login' ? 'Login' : 'Register'}</button>
       </form>
-      <button onClick={() => setMode(mode === 'login' ? 'register' : 'login')}>
+      <button onClick={() => { setMode(mode === 'login' ? 'register' : 'login'); setError(''); setSuccess(''); }}>
         {mode === 'login' ? 'Need an account? Register' : 'Already have an account? Login'}
       </button>
       {error && <div style={{ color: 'red' }}>{error}</div>}
+      {success && <div style={{ color: 'green' }}>{success}</div>} {/* <-- Show success message */}
     </div>
   );
 }
