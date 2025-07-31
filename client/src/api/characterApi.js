@@ -17,4 +17,12 @@ export const createCharacter = async (character) => {
   return response.data;
 };
 
-// You can add update/delete functions here as well if needed
+export const updateCharacter = async (id, character) => {
+  const response = await axios.put(`${API_URL}/${id}`, character, { headers: authHeader() });
+  return response.data;
+};
+
+export const deleteCharacter = async (id) => {
+  const response = await axios.delete(`${API_URL}/${id}`, { headers: authHeader() });
+  return response.data;
+};
