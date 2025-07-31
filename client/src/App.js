@@ -4,6 +4,7 @@ import CharacterSheet from './CharacterSheet';
 import PointBuy from './components/PointBuy';
 import { getCharacters, createCharacter } from './api/characterApi';
 import axios from 'axios';
+import CharacterManager from './components/CharacterManager';
 
 const STANDARD_ARRAY = [15, 14, 13, 12, 10, 8];
 const STAT_KEYS = ['str', 'dex', 'con', 'int', 'wis', 'cha'];
@@ -341,15 +342,7 @@ function App() {
         </button>
       </div>
 
-      <h3>Saved Characters</h3>
-      {characters.map((char) => (
-        <div key={char._id} style={{ border: '1px solid #ccc', margin: '1rem 0', padding: '1rem' }}>
-          <strong>{char.name}</strong> (Lv {char.level})
-          <p><strong>Role:</strong> {char.role}</p>
-          <p><strong>Archetype:</strong> {char.archetype}</p>
-          <button onClick={() => handleExport(char)}>Export PDF</button>
-        </div>
-      ))}
+      <CharacterManager />
 
       <div style={{ display: 'none' }}>
         {selectedCharacter && (
