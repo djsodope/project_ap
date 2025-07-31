@@ -5,7 +5,11 @@ require('dotenv').config(); // <-- Add this line
 
 const app = express();
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://project-ap-tau.vercel.app'],
+  origin: [
+    'http://localhost:3000',
+    'https://project-ap-tau.vercel.app',
+    'https://project-ap-git-main-djsodopes-projects.vercel.app'
+  ],
   credentials: true
 }));
 app.use(express.json());

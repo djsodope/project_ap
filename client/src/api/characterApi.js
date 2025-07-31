@@ -1,4 +1,5 @@
 import axios from 'axios';
+const cors = require('cors');
 
 const API_URL = 'https://project-ap-j937.onrender.com/api/characters';
 
@@ -16,5 +17,13 @@ export const createCharacter = async (character) => {
   const response = await axios.post(API_URL, character, { headers: authHeader() });
   return response.data;
 };
+
+app.use(cors({
+  origin: [
+    'https://project-ap-tau.vercel.app', // old frontend
+    // add your new frontend domain below
+  ],
+  credentials: true
+}));
 
 // You can add update/delete functions here as well if needed
